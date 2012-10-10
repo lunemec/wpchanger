@@ -1,3 +1,12 @@
+--- Description ---
+This application is multi-platform wallpaper changer. It can change your wallpaper depending on daytime, (date, weather not implemented yet).
+
+I hope it will have gui in future, for now it works from command line only.
+
+Main trouble is discovering how to change wallpaper on certain system or window manager, so I made it simple if someone knows how to change it,
+ just write a super simple plugin, that can do that, so everyone can enjoy it :)
+
+
 
 --- Plugins ---
 name pluigns so they would correspand to settings.window_managers key and environment_detector ('gnome.py', 'kde.py', 'windows.py', 'macos.py')

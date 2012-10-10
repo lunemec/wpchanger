@@ -14,10 +14,10 @@ class Environment(BaseClass):
         if os.name == 'nt':
             self.env = 'windows'
         elif os.name == 'posix':
-            self.env = self.detect_wm()
-        #TODO TEST MAC!
-        elif os.name == 'macos':
-            self.env = 'mac'
+            if os.uname[0] == 'Linux':
+                self.env = self.detect_wm()
+            elif os.uname[0] == 'Darwin':
+                self.env = 'mac'
     
     def detect_wm(self):
         ''' tries to detect user's window manager on linux, if fail, reverts to using regular Xserver
