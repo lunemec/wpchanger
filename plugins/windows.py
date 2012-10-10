@@ -15,10 +15,11 @@ class windows(BaseClass):
         SPI_SETDESKWALLPAPER = 20
         setit = windll.user32.SystemParametersInfoA(SPI_SETDESKWALLPAPER, 0, filepath, 0)
         
-        if not setit:
-            self.log.error('%s Error while setting wallpaper image: %s, error was: %s' % (self.datetime.datetime.now(), image_file_with_path, e))
-            return False
+        if setit:
+            return True
         
         else:
-            return True
+            self.log.error('%s Error while setting wallpaper image: %s, error was: %s' % (self.datetime.datetime.now(), image_file_with_path, e))
+            return False
+            
     

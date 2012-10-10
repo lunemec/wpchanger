@@ -3,7 +3,7 @@
 from common import BaseClass
 import settings
 
-class SelectImages(BaseClass):
+class daytime(BaseClass):
     ''' provided images list, current time returns 2 images from list and alpha for merging 
     @param images_list: list unicode strings
     @param current_time: datetime.datetime object
@@ -14,6 +14,7 @@ class SelectImages(BaseClass):
     def __init__(self, images_list, current_time):
         super(SelectImages, self).__init__()
         self.selected = self.select_images(images_list, current_time)
+        self.provides = 'image'
         
     def select_images(self, imgs_list, time):
         ''' calculates which 2 images to merge and with what alpha provided images list and time

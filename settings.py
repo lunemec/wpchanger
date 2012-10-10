@@ -18,3 +18,6 @@ window_managers = {'gnome': ['gnome'],
 
 # name of temporary image to save (without .bmp/.png)
 tmp_image = 'tmp/tempimage'
+
+# select on which events will resulting wallpaper depend
+events = ['daytime']

@@ -48,3 +48,6 @@ class mywindowmanager(BaseClass): # name class same way as file!
 			return False
 
 -----------------------------------------
+
+--- Events ---
+
