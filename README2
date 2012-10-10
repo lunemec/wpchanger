@@ -1,0 +1,36 @@
+
+--- Plugins ---
+name pluigns so they would correspand to settings.window_managers key and environment_detector ('gnome.py', 'kde.py', 'windows.py', 'macos.py')
+
+each plugin contains one class with method set_wallpaper that takes wallpaper image file with absolute or relative path and sets it as a desktop.
+method needs to return True if succes or False on error.
+class needs to inherit from common.BaseClass and needs to have same name as the plugins name
+
+class can then access logging in self.log and datetime in self.datetime
+
+if you need to override __init__(self), make sure to call super(classname, self).__init__()!
+
+Example:
+'mywindowmanager.py'
+-----------------------------------------
+# -*- coding: utf-8 -*-
+
+import os
+
+from common import BaseClass
+
+class mywindowmanager(BaseClass): # name class same way as file!
+	
+	def set_wallpaper(image_file_with_path):
+		filepath = os.path.abspath(image_file_with_path)
+		
+		try:
+			# try to set wallpaper
+			call(['feh', '--bg-fill', imgfile])
+			return True
+		
+		except Exception, e:
+			self.log.error('%s Error while setting wallpaper image: %s, error was: %s' % (self.datetime.datetime.now(), image_file_with_path, e))
+			return False
+
+-----------------------------------------

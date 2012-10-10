@@ -1,0 +1,111 @@
+[ERROR]2012-10-09 15:20:02.159777 Error while merging images with alpha 0.5, error was: AttributeError("'OpenImage' object has no attribute 'load'",)
+[DEBUG]2012-10-09 15:40:09.279565 STEP | lctime = 940 | timer = 5 | per_cent_day = 65.2777777778
+[DEBUG]2012-10-09 15:40:09.279565 IMAGES calculated and set | steps = 800 | curr_step = 522 | image1 = 5 | image2 = 6 | alpha = 0.22 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:40:09.279565 STEP | lctime = 940 | timer = 5 | per_cent_day = 65.2777777778
+[DEBUG]2012-10-09 15:40:09.279565 IMAGES calculated and set | steps = 800 | curr_step = 522 | image1 = 5 | image2 = 6 | alpha = 0.22 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:40:09.279565 STEP | lctime = 940 | timer = 5 | per_cent_day = 65.2777777778
+[DEBUG]2012-10-09 15:40:09.279565 IMAGES calculated and set | steps = 800 | curr_step = 522 | image1 = 5 | image2 = 6 | alpha = 0.22 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:40:09.279565 STEP | lctime = 940 | timer = 5 | per_cent_day = 65.2777777778
+[DEBUG]2012-10-09 15:40:09.279565 IMAGES calculated and set | steps = 800 | curr_step = 522 | image1 = 5 | image2 = 6 | alpha = 0.22 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:40:09.279565 STEP | lctime = 940 | timer = 5 | per_cent_day = 65.2777777778
+[DEBUG]2012-10-09 15:40:09.279565 IMAGES calculated and set | steps = 800 | curr_step = 522 | image1 = 5 | image2 = 6 | alpha = 0.22 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:11.164424 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:11.164424 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:13.516688 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:13.516688 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:15.444339 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:15.444339 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:16.013033 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:16.013033 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:16.620412 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:16.620412 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:17.139400 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:17.139400 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:17.668284 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:17.668284 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:18.252669 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:18.252669 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:18.901035 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:18.901035 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:19.556325 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:19.556325 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:19.980099 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:19.980099 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:20.355508 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:20.355508 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:20.732346 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:20.732346 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:21.092878 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:21.092878 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:21.500201 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:21.500201 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:22.027027 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:22.027027 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:22.620116 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:22.620116 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:24.204067 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:24.204067 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:24.812921 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:24.812921 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:25.459157 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:25.459157 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:26.003372 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:26.003372 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:28.948868 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:28.948868 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:29.395679 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:29.395679 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:29.882810 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:29.882810 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:30.627117 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:30.627117 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:31.131864 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:31.131864 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:31.555975 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:31.555975 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:32.012570 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:32.012570 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:32.563000 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:32.563000 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:33.043112 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:33.043112 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:33.574352 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:33.574352 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:34.076037 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:34.076037 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:34.605028 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:34.605028 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:35.163084 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:35.163084 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:35.579593 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:35.579593 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:36.027073 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:36.027073 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:36.532216 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:36.532216 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:37.003374 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:37.003374 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:37.468147 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:37.468147 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:37.947314 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:37.947314 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:38.413264 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:38.413264 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:38.836058 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:38.836058 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 15:59:57.820945 STEP | lctime = 959 | timer = 5 | per_cent_day = 66.5972222222
+[DEBUG]2012-10-09 15:59:57.820945 IMAGES calculated and set | steps = 800 | curr_step = 532 | image1 = 5 | image2 = 6 | alpha = 0.32 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 16:00:11.947648 STEP | lctime = 960 | timer = 5 | per_cent_day = 66.6666666667
+[DEBUG]2012-10-09 16:00:11.947648 IMAGES calculated and set | steps = 800 | curr_step = 533 | image1 = 5 | image2 = 6 | alpha = 0.33 | img1 = 4 | img2 = 5
+[DEBUG]2012-10-09 14:40:09.279565 STEP | lctime = 880 | timer = 5 | per_cent_day = 61.1111111111
+[DEBUG]2012-10-09 14:40:09.279565 IMAGES calculated and set | steps = 800 | curr_step = 488 | image1 = 4 | image2 = 5 | alpha = 0.88 | img1 = 3 | img2 = 4
+[DEBUG]2012-10-09 10:40:09.279565 STEP | lctime = 640 | timer = 5 | per_cent_day = 44.4444444444
+[DEBUG]2012-10-09 10:40:09.279565 IMAGES calculated and set | steps = 800 | curr_step = 355 | image1 = 3 | image2 = 4 | alpha = 0.55 | img1 = 2 | img2 = 3
+[DEBUG]2012-10-09 00:40:09.279565 STEP | lctime = 40 | timer = 5 | per_cent_day = 2.77777777778
+[DEBUG]2012-10-09 00:40:09.279565 IMAGES calculated and set | steps = 800 | curr_step = 22 | image1 = 0 | image2 = 1 | alpha = 0.22 | img1 = -1 | img2 = 0
+[DEBUG]2012-10-09 00:40:09.279565 STEP | lctime = 40 | timer = 5 | per_cent_day = 2.77777777778
+[DEBUG]2012-10-09 00:40:09.279565 IMAGES calculated and set | steps = 800 | curr_step = 22 | image1 = 0 | image2 = 1 | alpha = 0.22 | img1 = -1 | img2 = 0
+[DEBUG]2012-10-09 12:40:09.279565 STEP | lctime = 760 | timer = 5 | per_cent_day = 52.7777777778
+[DEBUG]2012-10-09 12:40:09.279565 IMAGES calculated and set | steps = 800 | curr_step = 422 | image1 = 4 | image2 = 5 | alpha = 0.22 | img1 = 3 | img2 = 4
+[DEBUG]2012-10-09 23:40:09.279565 STEP | lctime = 1420 | timer = 5 | per_cent_day = 98.6111111111
+[DEBUG]2012-10-09 23:40:09.279565 IMAGES calculated and set | steps = 800 | curr_step = 788 | image1 = 7 | image2 = 8 | alpha = 0.88 | img1 = 6 | img2 = 7
