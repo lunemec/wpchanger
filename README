@@ -35,6 +35,8 @@ class mywindowmanager(BaseClass): # name class same way as file!
 		
 		try:
 			# try to set wallpaper
+			# NOTE: this will work, but there is no way of telling if wallpaper was set or not, and also Exception below would occur only if imgfile would
+			# be something horrible, so almost never
 			call(['feh', '--bg-fill', imgfile])
 			return True
 		

@@ -1,4 +1,21 @@
+# -*- coding: utf-8 -*-
 
-from lib.image_finder import ImagePaths
+import time
 
-print ImagePaths('../../images/old').paths
+import settings
+
+def main():
+    
+    while True:
+        
+        # TODO call the methods from lib
+        
+        # tick each settings.change_interval minutes to change wallpaper
+        time.sleep(settings.change_interval * 60)
+        pass
+    
+    return True
+
+if __name__ == '__main__':
+    
+    main()
