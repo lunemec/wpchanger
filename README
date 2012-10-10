@@ -4,7 +4,10 @@ This application is multi-platform wallpaper changer. It can change your wallpap
 I hope it will have gui in future, for now it works from command line only.
 
 Main trouble is discovering how to change wallpaper on certain system or window manager, so I made it simple if someone knows how to change it,
- just write a super simple plugin, that can do that, so everyone can enjoy it :)
+just write a super simple plugin, that can do that, so everyone can enjoy it :)
+
+You can use it to generate fractals or something like that using python imaging library and then use this application to set it as wallpaper, with
+some conditions, there are no limits to ones imagination.
 
 
 
