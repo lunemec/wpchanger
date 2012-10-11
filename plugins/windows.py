@@ -8,6 +8,7 @@ if os.name == 'nt':
 from common import BaseClass
 
 class windows(BaseClass):
+    image_alpha = False
     
     def set_wallpaper(image_file_with_path):
         filepath = os.path.abspath(image_file_with_path)
