@@ -9,8 +9,11 @@ import settings
 class Event(BaseClass):
     
     def handle_events(self):
+        ''' loads active events from settings, activates them and result is used for image merging
+        @return [(img1, img2, alpha), (img1, img2, alpha)] '''
         # first get active events
         self.events = settings.events[:]
+        self.curr_directory = settings.images_dir[:]
                 
         # import those    
         for event in self.events:
@@ -18,9 +21,11 @@ class Event(BaseClass):
             
         # get their provide, only once can be 'folder'
         folder_count = 0
+        have_first = False
         for loaded_ev in self.events:
             if eval('self.%s.%s.provides' % (loaded_ev, loaded_ev)) == 'folder':
                 # set it so 'folder' providing event goes fist
+                have_first = True
                 self.goes_first = loaded_ev
                 folder_count += 1
         
@@ -29,7 +34,7 @@ class Event(BaseClass):
             raise Exception('Active events can have only one that provides "folder", check settings.')
         
         # service goes_first, first is always 'folder'
-        if self.goes_first:
+        if have_first and self.goes_first:
             self.curr_directory = self.__get_event_result(self.goes_first)
         
             # remove so it is not loaded again

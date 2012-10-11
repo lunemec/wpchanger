@@ -12,9 +12,9 @@ class Environment(BaseClass):
         if os.name == 'nt':
             self.env = 'windows'
         elif os.name == 'posix':
-            if os.uname[0] == 'Linux':
+            if os.uname()[0] == 'Linux':
                 self.env = self.detect_wm()
-            elif os.uname[0] == 'Darwin':
+            elif os.uname()[0] == 'Darwin':
                 self.env = 'mac'
         
         return self.env

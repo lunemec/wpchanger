@@ -36,7 +36,7 @@ from common import BaseClass
 class mywindowmanager(BaseClass): # name class same way as file!
 	image_alpha = False
 	
-	def set_wallpaper(image_file_with_path):
+	def set_wallpaper(self, image_file_with_path):
 		filepath = os.path.abspath(image_file_with_path)
 		
 		try:
@@ -65,7 +65,7 @@ each class must have method event() that will take arguments with same name as i
 event that has provides set to 'folder' must return unicode string with absolute path to images folder
 event that has provides set to 'image' must return (u'/abs/path/to/image1', u'/abs/path/to/image2', alpha), alpha is float
 
-you may have active more than one event that provide 'image', the program will merge them separately and then together with alpha (100% / number of active 'image' events)
+you may have active more than one event that provide 'image', the program will merge them separately and then together
 
 Example:
 'myevent.py'

@@ -5,12 +5,12 @@ import os
 if os.name == 'nt':
     from ctypes import windll
 
-from common import BaseClass
+from lib.common import BaseClass
 
 class windows(BaseClass):
     image_alpha = False
     
-    def set_wallpaper(image_file_with_path):
+    def set_wallpaper(self, image_file_with_path):
         filepath = os.path.abspath(image_file_with_path)
         
         SPI_SETDESKWALLPAPER = 20
