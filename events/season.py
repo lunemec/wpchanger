@@ -44,7 +44,7 @@ class season(BaseClass):
             
             for folder in folders_list:
                 if seasons[season] in folder:
-                    return folder
+                    return folder.decode('utf-8')
         
         return False
         

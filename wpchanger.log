@@ -171,3 +171,6 @@
 [DEBUG]2012-10-11 13:24:57.889597 2012-09-23 <= 2012-10-11 <= 2012-12-21
 [DEBUG]2012-10-11 13:24:57.890967 STEP | lctime = 804 | timer = 5 | per_cent_day = 55.8333333333
 [DEBUG]2012-10-11 13:24:57.890967 IMAGES calculated and set | steps = 800 | curr_step = 446 | image1 = 4 | image2 = 5 | alpha = 0.46 | img1 = 3 | img2 = 4
+[DEBUG]2012-10-11 13:37:38.384802 2012-09-23 <= 2012-10-11 <= 2012-12-21
+[DEBUG]2012-10-11 13:37:38.388057 STEP | lctime = 817 | timer = 5 | per_cent_day = 56.7361111111
+[DEBUG]2012-10-11 13:37:38.388057 IMAGES calculated and set | steps = 800 | curr_step = 453 | image1 = 4 | image2 = 5 | alpha = 0.53 | img1 = 3 | img2 = 4
