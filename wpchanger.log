@@ -174,3 +174,28 @@
 [DEBUG]2012-10-11 13:37:38.384802 2012-09-23 <= 2012-10-11 <= 2012-12-21
 [DEBUG]2012-10-11 13:37:38.388057 STEP | lctime = 817 | timer = 5 | per_cent_day = 56.7361111111
 [DEBUG]2012-10-11 13:37:38.388057 IMAGES calculated and set | steps = 800 | curr_step = 453 | image1 = 4 | image2 = 5 | alpha = 0.53 | img1 = 3 | img2 = 4
+[ERROR]2012-10-11 13:51:51.908959 Error while event loading, more than one event provides folder
+[DEBUG]2012-10-11 13:58:49.708474 2012-09-23 <= 2012-10-11 <= 2012-12-21
+[DEBUG]2012-10-11 13:58:49.710507 STEP | lctime = 838 | timer = 5 | per_cent_day = 58.1944444444
+[DEBUG]2012-10-11 13:58:49.710507 IMAGES calculated and set | steps = 800 | curr_step = 465 | image1 = 4 | image2 = 5 | alpha = 0.65 | img1 = 3 | img2 = 4
+[DEBUG]2012-10-11 14:02:06.936547 2012-09-23 <= 2012-10-11 <= 2012-12-21
+[DEBUG]2012-10-11 14:02:06.937977 STEP | lctime = 842 | timer = 5 | per_cent_day = 58.4722222222
+[DEBUG]2012-10-11 14:02:06.937977 IMAGES calculated and set | steps = 800 | curr_step = 467 | image1 = 4 | image2 = 5 | alpha = 0.67 | img1 = 3 | img2 = 4
+[DEBUG]2012-10-11 14:03:43.597154 2012-09-23 <= 2012-10-11 <= 2012-12-21
+[DEBUG]2012-10-11 14:03:43.598879 STEP | lctime = 843 | timer = 5 | per_cent_day = 58.5416666667
+[DEBUG]2012-10-11 14:03:43.598879 IMAGES calculated and set | steps = 800 | curr_step = 468 | image1 = 4 | image2 = 5 | alpha = 0.68 | img1 = 3 | img2 = 4
+[DEBUG]2012-10-11 14:05:35.463589 2012-09-23 <= 2012-10-11 <= 2012-12-21
+[DEBUG]2012-10-11 14:05:35.464241 STEP | lctime = 845 | timer = 5 | per_cent_day = 58.6805555556
+[DEBUG]2012-10-11 14:05:35.464241 IMAGES calculated and set | steps = 800 | curr_step = 469 | image1 = 4 | image2 = 5 | alpha = 0.69 | img1 = 3 | img2 = 4
+[DEBUG]2012-10-11 14:06:29.655742 2012-09-23 <= 2012-10-11 <= 2012-12-21
+[DEBUG]2012-10-11 14:06:29.657236 STEP | lctime = 846 | timer = 5 | per_cent_day = 58.75
+[DEBUG]2012-10-11 14:06:29.657236 IMAGES calculated and set | steps = 800 | curr_step = 470 | image1 = 4 | image2 = 5 | alpha = 0.7 | img1 = 3 | img2 = 4
+[DEBUG]2012-10-11 14:07:36.983765 2012-09-23 <= 2012-10-11 <= 2012-12-21
+[DEBUG]2012-10-11 14:07:36.985118 STEP | lctime = 847 | timer = 5 | per_cent_day = 58.8194444444
+[DEBUG]2012-10-11 14:07:36.985118 IMAGES calculated and set | steps = 800 | curr_step = 470 | image1 = 4 | image2 = 5 | alpha = 0.7 | img1 = 3 | img2 = 4
+[DEBUG]2012-10-11 14:07:56.174745 2012-09-23 <= 2012-10-11 <= 2012-12-21
+[DEBUG]2012-10-11 14:07:56.176224 STEP | lctime = 847 | timer = 5 | per_cent_day = 58.8194444444
+[DEBUG]2012-10-11 14:07:56.176224 IMAGES calculated and set | steps = 800 | curr_step = 470 | image1 = 4 | image2 = 5 | alpha = 0.7 | img1 = 3 | img2 = 4
+[DEBUG]2012-10-11 14:07:57.302193 2012-09-23 <= 2012-10-11 <= 2012-12-21
+[DEBUG]2012-10-11 14:07:57.302851 STEP | lctime = 847 | timer = 5 | per_cent_day = 58.8194444444
+[DEBUG]2012-10-11 14:07:57.302851 IMAGES calculated and set | steps = 800 | curr_step = 470 | image1 = 4 | image2 = 5 | alpha = 0.7 | img1 = 3 | img2 = 4

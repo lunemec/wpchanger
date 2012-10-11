@@ -20,4 +20,4 @@ window_managers = {'gnome': ['gnome'],
 tmp_image = 'tmp/tempimage'
 
 # select on which events will resulting wallpaper depend
-events = ['season', 'daytime',]
+events = ['season', 'daytime']

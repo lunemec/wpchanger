@@ -10,8 +10,8 @@ class Event(BaseClass):
     
     def handle_events(self):
         # first get active events
-        self.events = settings.events
-        
+        self.events = settings.events[:]
+                
         # import those    
         for event in self.events:
             setattr(self, event, import_module('events.%s' % event))
