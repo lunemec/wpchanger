@@ -7,16 +7,6 @@ from common import BaseClass
 from environment_detector import Environment
 
 class SaveImage(BaseClass):
-    ''' tries to save image_object as image_file
-    @param image_object: Image.Image object
-    @param image_file: string
-    
-    usage: SaveImage(image_object, 'where/to/save/img.png')
-    returns True or False on error '''
-    
-    def __init__(self, image_object, image_file):
-        super(SaveImage, self).__init__()
-        self.save(image_object, image_file)
         
     def save(self, image_object, image_file):
         ''' tries to save image object as file

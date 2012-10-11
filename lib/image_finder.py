@@ -7,15 +7,14 @@ import settings
 from common import BaseClass
 
 class ImagePaths(BaseClass):
-    ''' finds images in given path, sorts them by number and returns list
-    @param string: path to image folder
-    
-    usage: ImagePaths('../../dir_with_images/').paths
-    returns [u'/path/to/img/img1.jpg', u'/path/to/img/img2.jpg'] '''
-    
-    def __init__(self, path=os.getcwd()):
+        
+    def get_paths(self, path):
+        ''' method for returning sorted list of directory 
+        @param string: path to image folder
+        @ return list'''
         self.paths = []
         self.paths = self.sort_images(self.get_images(path))
+        return self.paths
     
     def get_images(self, path):
         ''' returns list o funicode strings containing absolute paths to images

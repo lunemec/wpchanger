@@ -1,20 +1,11 @@
 # -*- coding: utf-8 -*-
 
-from common import BaseClass
+from lib.common import BaseClass
 import settings
 
 class daytime(BaseClass):
-    ''' provided images list, current time returns 2 images from list and alpha for merging 
-    @param images_list: list unicode strings
-    @param current_time: datetime.datetime object
     
-    usage: SelectImages(['img1', 'img2'], datetime.datetime(2012, 10, 9, 15, 40, 9, 279565)).selected
-    returns ('img1', 'img2', 0.5) or False on error'''
-    
-    def __init__(self, images_list, current_time):
-        super(SelectImages, self).__init__()
-        self.selected = self.select_images(images_list, current_time)
-        self.provides = 'image'
+    provides = 'image'
         
     def select_images(self, imgs_list, time):
         ''' calculates which 2 images to merge and with what alpha provided images list and time

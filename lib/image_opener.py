@@ -6,15 +6,6 @@ import os
 from common import BaseClass
 
 class OpenImage(BaseClass):
-    ''' attempts to open image
-    @param image: string
-    
-    usage: OpenImage('path/to/image/imgfile.jpg').image
-    returns Image.Image object or False on error '''
-    
-    def __init__(self, image):
-        super(OpenImage, self).__init__()
-        self.image = self.open_image(image)
 
     def open_image(self, image_file):
         ''' opens image and returns Image.Image object or None on error

@@ -6,11 +6,9 @@ import settings
 from common import BaseClass
 
 class Environment(BaseClass):
-    ''' detects system environment and returns env string
-    usage: Environment().env
-    returns: 'windows' or "gnome" or "kde" or "mac" '''
-    
-    def __init__(self):
+
+                
+    def environment(self):
         if os.name == 'nt':
             self.env = 'windows'
         elif os.name == 'posix':
@@ -18,6 +16,8 @@ class Environment(BaseClass):
                 self.env = self.detect_wm()
             elif os.uname[0] == 'Darwin':
                 self.env = 'mac'
+        
+        return self.env
     
     def detect_wm(self):
         ''' tries to detect user's window manager on linux, if fail, reverts to using regular Xserver
