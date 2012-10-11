@@ -8,8 +8,12 @@ import settings
 class season(BaseClass):
     
     provides = 'folder'
-        
-    def select_folder(self, images_folder, date, reverse=False):
+    params = {'images_folder': 'settings.images_dir',
+              'date': 'datetime.date.today()'}
+    autoimport = {'settings': 'settings', 
+                  'datetime': 'datetime'}
+            
+    def event(self, images_folder, date, reverse=False):
         ''' returns folder corresponding to current season
         @param images_folder: unicode string
         @param date: datetime.date object

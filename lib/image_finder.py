@@ -33,7 +33,7 @@ class ImagePaths(BaseClass):
             if itm != 'tmp.bmp':
                 for imgtype in filetypes:
                     if imgtype in itm:
-                        imgnames.append(u'%s%s' % (path, itm))
+                        imgnames.append(u'%s/%s' % (path, itm))
                         
         return imgnames
         

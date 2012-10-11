@@ -6,8 +6,13 @@ import settings
 class daytime(BaseClass):
     
     provides = 'image'
-        
-    def select_images(self, imgs_list, time):
+    params = {'imgs_list': 'image_finder.ImagePaths().get_paths(self.curr_directory)',
+              'time': 'datetime.datetime.now()'}
+    autoimport = {'os': 'os', 
+                  'datetime': 'datetime', 
+                  'image_finder': 'lib.image_finder'}
+            
+    def event(self, imgs_list, time):
         ''' calculates which 2 images to merge and with what alpha provided images list and time
         @param imgs_list: list unicode strings
         @param time: datetime.datetime object
