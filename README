@@ -1,5 +1,5 @@
 --- Description ---
-This application is multi-platform wallpaper changer. It can change your wallpaper depending on daytime, (date, weather not implemented yet).
+This application is multi-platform wallpaper changer. It can change your wallpaper depending on daytime, date, (weather, cpu-temp not implemented yet).
 
 I hope it will have gui in future, for now it works from command line only.
 
