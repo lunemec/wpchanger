@@ -54,6 +54,7 @@ class mywindowmanager(BaseClass): # name class same way as file!
 
 --- Events ---
 name events so they would correspond to settings.events
+at each time at least one event provinding 'image' must be active!
 
 each event must contain one class with same name as its filename e.g.: myevent.py, class myevent(object or BaseClass)
 each class must contain provides attribute which is string 'folder' or 'image'

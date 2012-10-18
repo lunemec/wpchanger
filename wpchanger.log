@@ -233,3 +233,103 @@
 [DEBUG]2012-10-11 16:07:57.879901 STEP | lctime = 967 | timer = 5 | per_cent_day = 67.1527777778
 [DEBUG]2012-10-11 16:07:57.879901 IMAGES calculated and set | steps = 800 | curr_step = 537 | image1 = 5 | image2 = 6 | alpha = 0.37 | img1 = 4 | img2 = 5
 [DEBUG]2012-10-11 16:08:00.327156 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 12:54:04.247658 2012-09-23 <= 2012-10-12 <= 2012-12-21
+[DEBUG]2012-10-12 12:54:50.881400 2012-09-23 <= 2012-10-12 <= 2012-12-21
+[DEBUG]2012-10-12 12:56:28.827618 STEP | lctime = 776 | timer = 5 | per_cent_day = 53.8888888889
+[DEBUG]2012-10-12 12:56:28.827618 IMAGES calculated and set | steps = 800 | curr_step = 431 | image1 = 4 | image2 = 5 | alpha = 0.31 | img1 = 3 | img2 = 4
+[DEBUG]2012-10-12 12:56:31.756852 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 12:59:04.158878 2012-09-23 <= 2012-10-12 <= 2012-12-21
+[DEBUG]2012-10-12 12:59:28.676619 2012-09-23 <= 2012-10-12 <= 2012-12-21
+[DEBUG]2012-10-12 12:59:42.517830 2012-09-23 <= 2012-10-12 <= 2012-12-21
+[DEBUG]2012-10-12 12:59:49.080702 2012-09-23 <= 2012-10-12 <= 2012-12-21
+[DEBUG]2012-10-12 13:00:05.802343 2012-09-23 <= 2012-10-12 <= 2012-12-21
+[DEBUG]2012-10-12 13:01:31.760745 STEP | lctime = 781 | timer = 5 | per_cent_day = 54.2361111111
+[DEBUG]2012-10-12 13:01:31.760745 IMAGES calculated and set | steps = 800 | curr_step = 433 | image1 = 4 | image2 = 5 | alpha = 0.33 | img1 = 3 | img2 = 4
+[DEBUG]2012-10-12 13:01:34.813172 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 13:06:34.911338 STEP | lctime = 786 | timer = 5 | per_cent_day = 54.5833333333
+[DEBUG]2012-10-12 13:06:34.911338 IMAGES calculated and set | steps = 800 | curr_step = 436 | image1 = 4 | image2 = 5 | alpha = 0.36 | img1 = 3 | img2 = 4
+[DEBUG]2012-10-12 13:06:38.049909 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 13:11:38.147208 STEP | lctime = 791 | timer = 5 | per_cent_day = 54.9305555556
+[DEBUG]2012-10-12 13:11:38.147208 IMAGES calculated and set | steps = 800 | curr_step = 439 | image1 = 4 | image2 = 5 | alpha = 0.39 | img1 = 3 | img2 = 4
+[DEBUG]2012-10-12 13:11:41.210491 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 13:16:41.289627 STEP | lctime = 796 | timer = 5 | per_cent_day = 55.2777777778
+[DEBUG]2012-10-12 13:16:41.289627 IMAGES calculated and set | steps = 800 | curr_step = 442 | image1 = 4 | image2 = 5 | alpha = 0.42 | img1 = 3 | img2 = 4
+[DEBUG]2012-10-12 13:16:44.467091 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 13:21:44.472814 STEP | lctime = 801 | timer = 5 | per_cent_day = 55.625
+[DEBUG]2012-10-12 13:21:44.472814 IMAGES calculated and set | steps = 800 | curr_step = 445 | image1 = 4 | image2 = 5 | alpha = 0.45 | img1 = 3 | img2 = 4
+[DEBUG]2012-10-12 13:21:47.420063 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 13:22:45.176996 STEP | lctime = 802 | timer = 5 | per_cent_day = 55.6944444444
+[DEBUG]2012-10-12 13:22:45.176996 IMAGES calculated and set | steps = 2400 | curr_step = 1336 | image1 = 13 | image2 = 14 | alpha = 0.36 | img1 = 12 | img2 = 13
+[DEBUG]2012-10-12 13:22:45.925554 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 13:27:46.026460 STEP | lctime = 807 | timer = 5 | per_cent_day = 56.0416666667
+[DEBUG]2012-10-12 13:27:46.026460 IMAGES calculated and set | steps = 2400 | curr_step = 1345 | image1 = 13 | image2 = 14 | alpha = 0.45 | img1 = 12 | img2 = 13
+[DEBUG]2012-10-12 13:27:46.776900 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 13:32:46.785553 STEP | lctime = 812 | timer = 5 | per_cent_day = 56.3888888889
+[DEBUG]2012-10-12 13:32:46.785553 IMAGES calculated and set | steps = 2400 | curr_step = 1353 | image1 = 13 | image2 = 14 | alpha = 0.53 | img1 = 12 | img2 = 13
+[DEBUG]2012-10-12 13:32:47.526387 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 13:37:47.602114 STEP | lctime = 817 | timer = 5 | per_cent_day = 56.7361111111
+[DEBUG]2012-10-12 13:37:47.602114 IMAGES calculated and set | steps = 2400 | curr_step = 1361 | image1 = 13 | image2 = 14 | alpha = 0.61 | img1 = 12 | img2 = 13
+[DEBUG]2012-10-12 13:37:48.337923 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 13:42:48.363864 STEP | lctime = 822 | timer = 5 | per_cent_day = 57.0833333333
+[DEBUG]2012-10-12 13:42:48.363864 IMAGES calculated and set | steps = 2400 | curr_step = 1370 | image1 = 13 | image2 = 14 | alpha = 0.7 | img1 = 12 | img2 = 13
+[DEBUG]2012-10-12 13:42:49.088965 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 13:47:49.180736 STEP | lctime = 827 | timer = 5 | per_cent_day = 57.4305555556
+[DEBUG]2012-10-12 13:47:49.180736 IMAGES calculated and set | steps = 2400 | curr_step = 1378 | image1 = 13 | image2 = 14 | alpha = 0.78 | img1 = 12 | img2 = 13
+[DEBUG]2012-10-12 13:47:49.912474 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 13:52:49.972513 STEP | lctime = 832 | timer = 5 | per_cent_day = 57.7777777778
+[DEBUG]2012-10-12 13:52:49.972513 IMAGES calculated and set | steps = 2400 | curr_step = 1386 | image1 = 13 | image2 = 14 | alpha = 0.86 | img1 = 12 | img2 = 13
+[DEBUG]2012-10-12 13:52:50.687555 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 13:57:50.771518 STEP | lctime = 837 | timer = 5 | per_cent_day = 58.125
+[DEBUG]2012-10-12 13:57:50.771518 IMAGES calculated and set | steps = 2400 | curr_step = 1395 | image1 = 13 | image2 = 14 | alpha = 0.95 | img1 = 12 | img2 = 13
+[DEBUG]2012-10-12 13:57:51.491936 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 14:02:51.593346 STEP | lctime = 842 | timer = 5 | per_cent_day = 58.4722222222
+[DEBUG]2012-10-12 14:02:51.593346 IMAGES calculated and set | steps = 2400 | curr_step = 1403 | image1 = 14 | image2 = 15 | alpha = 0.03 | img1 = 13 | img2 = 14
+[DEBUG]2012-10-12 14:02:52.266901 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 14:07:52.365238 STEP | lctime = 847 | timer = 5 | per_cent_day = 58.8194444444
+[DEBUG]2012-10-12 14:07:52.365238 IMAGES calculated and set | steps = 2400 | curr_step = 1411 | image1 = 14 | image2 = 15 | alpha = 0.11 | img1 = 13 | img2 = 14
+[DEBUG]2012-10-12 14:07:53.047616 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 14:12:53.089245 STEP | lctime = 852 | timer = 5 | per_cent_day = 59.1666666667
+[DEBUG]2012-10-12 14:12:53.089245 IMAGES calculated and set | steps = 2400 | curr_step = 1420 | image1 = 14 | image2 = 15 | alpha = 0.2 | img1 = 13 | img2 = 14
+[DEBUG]2012-10-12 14:12:53.794617 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 14:17:53.895262 STEP | lctime = 857 | timer = 5 | per_cent_day = 59.5138888889
+[DEBUG]2012-10-12 14:17:53.895262 IMAGES calculated and set | steps = 2400 | curr_step = 1428 | image1 = 14 | image2 = 15 | alpha = 0.28 | img1 = 13 | img2 = 14
+[DEBUG]2012-10-12 14:17:54.586179 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 14:22:54.686537 STEP | lctime = 862 | timer = 5 | per_cent_day = 59.8611111111
+[DEBUG]2012-10-12 14:22:54.686537 IMAGES calculated and set | steps = 2400 | curr_step = 1436 | image1 = 14 | image2 = 15 | alpha = 0.36 | img1 = 13 | img2 = 14
+[DEBUG]2012-10-12 14:22:55.375977 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 14:27:55.476757 STEP | lctime = 867 | timer = 5 | per_cent_day = 60.2083333333
+[DEBUG]2012-10-12 14:27:55.476757 IMAGES calculated and set | steps = 2400 | curr_step = 1445 | image1 = 14 | image2 = 15 | alpha = 0.45 | img1 = 13 | img2 = 14
+[DEBUG]2012-10-12 14:27:56.221527 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 14:32:56.290824 STEP | lctime = 872 | timer = 5 | per_cent_day = 60.5555555556
+[DEBUG]2012-10-12 14:32:56.290824 IMAGES calculated and set | steps = 2400 | curr_step = 1453 | image1 = 14 | image2 = 15 | alpha = 0.53 | img1 = 13 | img2 = 14
+[DEBUG]2012-10-12 14:32:57.002739 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 14:37:57.066793 STEP | lctime = 877 | timer = 5 | per_cent_day = 60.9027777778
+[DEBUG]2012-10-12 14:37:57.066793 IMAGES calculated and set | steps = 2400 | curr_step = 1461 | image1 = 14 | image2 = 15 | alpha = 0.61 | img1 = 13 | img2 = 14
+[DEBUG]2012-10-12 14:37:57.771431 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 14:42:57.827588 STEP | lctime = 882 | timer = 5 | per_cent_day = 61.25
+[DEBUG]2012-10-12 14:42:57.827588 IMAGES calculated and set | steps = 2400 | curr_step = 1470 | image1 = 14 | image2 = 15 | alpha = 0.7 | img1 = 13 | img2 = 14
+[DEBUG]2012-10-12 14:42:58.510608 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 14:47:58.595289 STEP | lctime = 887 | timer = 5 | per_cent_day = 61.5972222222
+[DEBUG]2012-10-12 14:47:58.595289 IMAGES calculated and set | steps = 2400 | curr_step = 1478 | image1 = 14 | image2 = 15 | alpha = 0.78 | img1 = 13 | img2 = 14
+[DEBUG]2012-10-12 14:47:59.282005 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 14:52:59.325880 STEP | lctime = 892 | timer = 5 | per_cent_day = 61.9444444444
+[DEBUG]2012-10-12 14:52:59.325880 IMAGES calculated and set | steps = 2400 | curr_step = 1486 | image1 = 14 | image2 = 15 | alpha = 0.86 | img1 = 13 | img2 = 14
+[DEBUG]2012-10-12 14:53:00.037461 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 14:58:00.135646 STEP | lctime = 898 | timer = 5 | per_cent_day = 62.3611111111
+[DEBUG]2012-10-12 14:58:00.135646 IMAGES calculated and set | steps = 2400 | curr_step = 1496 | image1 = 14 | image2 = 15 | alpha = 0.96 | img1 = 13 | img2 = 14
+[DEBUG]2012-10-12 14:58:00.825116 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 15:03:00.885471 STEP | lctime = 903 | timer = 5 | per_cent_day = 62.7083333333
+[DEBUG]2012-10-12 15:03:00.885471 IMAGES calculated and set | steps = 2400 | curr_step = 1505 | image1 = 15 | image2 = 16 | alpha = 0.05 | img1 = 14 | img2 = 15
+[DEBUG]2012-10-12 15:03:01.567645 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 15:08:01.659454 STEP | lctime = 908 | timer = 5 | per_cent_day = 63.0555555556
+[DEBUG]2012-10-12 15:08:01.659454 IMAGES calculated and set | steps = 2400 | curr_step = 1513 | image1 = 15 | image2 = 16 | alpha = 0.13 | img1 = 14 | img2 = 15
+[DEBUG]2012-10-12 15:08:02.334921 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 15:13:02.348767 STEP | lctime = 913 | timer = 5 | per_cent_day = 63.4027777778
+[DEBUG]2012-10-12 15:13:02.348767 IMAGES calculated and set | steps = 2400 | curr_step = 1521 | image1 = 15 | image2 = 16 | alpha = 0.21 | img1 = 14 | img2 = 15
+[DEBUG]2012-10-12 15:13:03.028095 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 15:18:03.044767 STEP | lctime = 918 | timer = 5 | per_cent_day = 63.75
+[DEBUG]2012-10-12 15:18:03.044767 IMAGES calculated and set | steps = 2400 | curr_step = 1530 | image1 = 15 | image2 = 16 | alpha = 0.3 | img1 = 14 | img2 = 15
+[DEBUG]2012-10-12 15:18:03.719458 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png
+[DEBUG]2012-10-12 15:23:03.725990 STEP | lctime = 923 | timer = 5 | per_cent_day = 64.0972222222
+[DEBUG]2012-10-12 15:23:03.725990 IMAGES calculated and set | steps = 2400 | curr_step = 1538 | image1 = 15 | image2 = 16 | alpha = 0.38 | img1 = 14 | img2 = 15
+[DEBUG]2012-10-12 15:23:04.427060 successfully set wallpaper from /home/lukas/Dropbox/Python/wpchanger/tmp/tempimage.png

@@ -33,19 +33,22 @@ class Event(BaseClass):
             self.log.error('%s Error while event loading, more than one event provides folder' % self.datetime.datetime.now())
             raise Exception('Active events can have only one that provides "folder", check settings.')
         
-        # service goes_first, first is always 'folder'
-        if have_first and self.goes_first:
-            self.curr_directory = self.__get_event_result(self.goes_first)
-        
-            # remove so it is not loaded again
-            self.events.remove(self.goes_first)
-        
-        to_return = []
-        # call other events
-        for c_event in self.events:
-            to_return.append(self.__get_event_result(c_event))
+        try:
+            # service goes_first, first is always 'folder'
+            if have_first and self.goes_first:
+                self.curr_directory = self.__get_event_result(self.goes_first)
             
-        return to_return
+                # remove so it is not loaded again
+                self.events.remove(self.goes_first)
+            
+            to_return = []
+            # call other events
+            for c_event in self.events:
+                to_return.append(self.__get_event_result(c_event))
+                
+            return to_return
+        except AttributeError, e:
+            raise Exception('There seems to be some event handlers accessing directory that is not available, please check settings.')
         
         
     def __get_event_result(self, event):    

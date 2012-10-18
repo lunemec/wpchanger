@@ -12,6 +12,7 @@ class SaveImage(BaseClass):
         ''' tries to save image object as file
         @param image_object: Image.Image object
         @param image_file: string
+        @param img_format: string (default='PNG')
         @return boolean
         
         image_file can be absolute or relative path
