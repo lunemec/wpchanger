@@ -4,7 +4,7 @@
 logfile = 'wpchanger.log'
 
 # absolute or relative path to images folder
-images_dir = '../../images/stars'
+images_dir = '../../images'
 
 # interval for image refresh in minutes
 change_interval = 5
@@ -20,4 +20,4 @@ window_managers = {'gnome': ['gnome'],
 tmp_image = 'tmp/tempimage'
 
 # select on which events will resulting wallpaper depend
-events = ['daytime']
+events = ['season','daytime']

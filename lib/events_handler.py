@@ -8,6 +8,11 @@ import settings
 
 class Event(BaseClass):
     
+    def __init__(self, *args, **kwargs):
+        super(Event, self).__init__(*args, **kwargs)
+        
+        self.reverse = False
+    
     def handle_events(self):
         ''' loads active events from settings, activates them and result is used for image merging
         @return [(img1, img2, alpha), (img1, img2, alpha)] '''
@@ -23,7 +28,9 @@ class Event(BaseClass):
         folder_count = 0
         have_first = False
         for loaded_ev in self.events:
-            if eval('self.%s.%s.provides' % (loaded_ev, loaded_ev)) == 'folder':
+            # this calls self.loaded_ev.loaded_ev.provides
+            provides = getattr(getattr(self, loaded_ev), loaded_ev).provides
+            if provides == 'folder':
                 # set it so 'folder' providing event goes fist
                 have_first = True
                 self.goes_first = loaded_ev
@@ -47,6 +54,7 @@ class Event(BaseClass):
                 to_return.append(self.__get_event_result(c_event))
                 
             return to_return
+        
         except AttributeError, e:
             raise Exception('There seems to be some event handlers accessing directory that is not available, please check settings.')
         
@@ -54,22 +62,13 @@ class Event(BaseClass):
     def __get_event_result(self, event):    
         ''' calls specified event and returns its result
         @param event: string
-        @return event result '''    
-        # autoimport from event
-        to_import = eval('self.%s.%s().autoimport' % (event, event))
-        for importme in to_import:
-            globals()[importme] = import_module(to_import[importme])
+        @return event result '''
         
-        # get params and prepare them as funcion call parameters
-        params = eval('self.%s.%s.params' % (event, event))
-        
-        tmp_list = []
-        for param in params:
-            tmp_list.append('%s=%s' % (param, params[param]))
-            
-        call_params = ', '.join(tmp_list)
-        
+        kwargs = {'dir': self.curr_directory,
+                  'reverse': self.reverse,
+                  }
+
         # call the method
-        result = eval('self.%s.%s().event(%s)' % (event, event, call_params))
+        result = getattr(getattr(self, event), event)().event(**kwargs)
         
         return result

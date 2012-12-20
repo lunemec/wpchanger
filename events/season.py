@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import datetime
 import os
 
 from lib.common import BaseClass
@@ -9,16 +10,20 @@ class season(BaseClass):
     
     provides = 'folder'
     params = {'images_folder': 'settings.images_dir',
-              'date': 'datetime.date.today()'}
+              'date': 'self.datetime.date.today()',}
     autoimport = {'settings': 'settings', 
                   'datetime': 'datetime'}
             
-    def event(self, images_folder, date, reverse=False):
+    def event(self, **kwargs):
         ''' returns folder corresponding to current season
         @param images_folder: unicode string
         @param date: datetime.date object
         @param reverse: boolean
         @return unicode string '''
+        
+        images_folder = settings.images_dir
+        date = datetime.date.today()
+        reverse = kwargs.get('reverse')
         
         folders_list = []
         abs_path = os.path.abspath(images_folder)

@@ -1,22 +1,24 @@
 # -*- coding: utf-8 -*-
 
+import datetime
+
 from lib.common import BaseClass
+from lib import image_finder
+
 import settings
 
 class daytime(BaseClass):
     
     provides = 'image'
-    params = {'imgs_list': 'image_finder.ImagePaths().get_paths(self.curr_directory)',
-              'time': 'datetime.datetime.now()'}
-    autoimport = {'os': 'os', 
-                  'datetime': 'datetime', 
-                  'image_finder': 'lib.image_finder'}
             
-    def event(self, imgs_list, time):
+    def event(self, **kwargs):
         ''' calculates which 2 images to merge and with what alpha provided images list and time
         @param imgs_list: list unicode strings
         @param time: datetime.datetime object
         @return (string, string, float) or False on error'''
+        
+        imgs_list= image_finder.ImagePaths().get_paths(kwargs['dir'])
+        time = datetime.datetime.now()
         
         try:
             # get current local time in minutes
