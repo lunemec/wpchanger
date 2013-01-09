@@ -3,6 +3,8 @@
 import os
 from subprocess import call
 
+import settings
+
 from lib.common import BaseClass
 
 class kde(BaseClass):
@@ -11,13 +13,18 @@ class kde(BaseClass):
     def set_wallpaper(self, image_file_with_path):
         filepath = os.path.abspath(image_file_with_path)
         
-        # kde3
+        # kde3 - to try
         # *dcop kdesktop KBackgroundIface setWallpaper /home/crouse/Wallpapers/skull.jpg 5
         
         # kde4
-        # unknown, some crazy dbus call which is not available nowhere on the internet
-        # I'm starting to hate KDE4 ... 
-        
-        # TODO fill code here
-        
+        # yep, kde does not support command which would set up wallpaper, or I didn't find it
+        # so, it is going to take the image and just move it over settings.wallpaper_image
+        # it cannot be directly generated image because the saving procedure from PIL
+        # saves it by parts I guess, and KDE sets it too soon and result is black screen
+        # this is the only way I could find
+
+        wallpaper = os.path.abspath(settings.wallpaper_image)
+
+        os.rename(filepath, wallpaper)
+
         return True

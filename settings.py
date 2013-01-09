@@ -3,7 +3,7 @@
 
 logfile = 'wpchanger.log'
 
-# absolute or relative path to images folder
+# absolute or relative path to images folder (absolute path is better)
 images_dir = '../../images'
 
 # interval for image refresh in minutes
@@ -18,6 +18,9 @@ window_managers = {'gnome': ['gnome'],
 
 # name of temporary image to save (without .bmp/.png)
 tmp_image = 'tmp/tempimage'
+
+# abs or relative path where to save resulting wallpaper
+wallpaper_image = '/home/lukas/wp.png'
 
 # select on which events will resulting wallpaper depend
 events = ['season','daytime']

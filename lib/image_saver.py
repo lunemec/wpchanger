@@ -3,6 +3,8 @@
 import Image
 import os
 
+import settings
+
 from common import BaseClass
 from environment_detector import Environment
 
@@ -23,7 +25,9 @@ class SaveImage(BaseClass):
         
         try:
             image_object.save(path, format=img_format)
+
             return True
+
         except Exception, e:
             self.log.error('%s Error while saving image file: %s, error was: %r' % (self.datetime.datetime.now(), path, e))
             return False

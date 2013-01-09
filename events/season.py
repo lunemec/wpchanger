@@ -9,10 +9,6 @@ import settings
 class season(BaseClass):
     
     provides = 'folder'
-    params = {'images_folder': 'settings.images_dir',
-              'date': 'self.datetime.date.today()',}
-    autoimport = {'settings': 'settings', 
-                  'datetime': 'datetime'}
             
     def event(self, **kwargs):
         ''' returns folder corresponding to current season

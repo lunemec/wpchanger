@@ -59,9 +59,10 @@ at each time at least one event provinding 'image' must be active!
 each event must contain one class with same name as its filename e.g.: myevent.py, class myevent(object or BaseClass)
 each class must contain provides attribute which is string 'folder' or 'image'
 only one 'folder' event may be active at the same time
-each class must contain params dict with following data: params = {'variable_name': 'call_that_would_retrieve_this_variable'}
-each class must contain autoimport dict with following data: autoimport = {'import_as_name': 'what_to_import'}
-each class must have method event() that will take arguments with same name as in above params
+each class must have method event() that will take only **kwargs and from this dict take all the data it needs
+**kwargs is passed from lib/event_handler.py from __get_event_result where are kwargs set, note that this is needed only
+when your event requires information passed from other events or from event_handler itself, therefore if your event requires only
+hardware temperature, **kwargs will not be used, and you may write it any way you'd like 
 
 event that has provides set to 'folder' must return unicode string with absolute path to images folder
 event that has provides set to 'image' must return (u'/abs/path/to/image1', u'/abs/path/to/image2', alpha), alpha is float
@@ -81,14 +82,10 @@ import settings
 class myevent(BaseClass):
     
     provides = 'folder'
-    params = {'param1': 'settings.images_dir',
-              'param2': 'os.getcwd()'}
-    autoimport = {'settings': 'settings', 
-                  'os': 'os'}
             
-    def event(self, param1, param2):
+    def event(self, **kwargs):
     	
-    	folder = 'param1/param2'
+    	folder = 'kwargs.get('param1')/kwargs.get('param2')'
 
         return folder.decode('utf-8')
 -----------------------------------------

@@ -42,6 +42,7 @@ def main():
 
 if __name__ == '__main__':
     
+# TODO make windows part of this launcher
     if Environment().environment() != 'windows':  
         if os.fork() == 0:
             main()
