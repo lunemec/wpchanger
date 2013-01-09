@@ -16,7 +16,11 @@ class Plugin(BaseClass):
         @param image: Image.Image instance '''
 
         # detect our environment, either from override or env.detector
-        self.env = getattr(settings, 'window_manager_override') or Environment().environment()
+        try:
+            self.env = settings.window_manager_override
+
+        except AttributeError:
+            self.env = Environment().environment()
         
         # load corresponding plugin
         active_plugin = import_module('plugins.%s' % self.env)
