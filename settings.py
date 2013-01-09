@@ -12,6 +12,9 @@ change_interval = 5
 # valid image types
 image_types = ['.jpg', '.png', '.bmp']
 
+# override window manager settings with (uncomment to enable)
+#window_manager_override = 'kde'
+
 # dict with window managers we can detect format is following: 'window_manager': ['string1_to_look_for', 'string2_to_look_for']
 window_managers = {'gnome': ['gnome'],
                    'kde': ['kdeinit']}

@@ -14,8 +14,9 @@ class Plugin(BaseClass):
     def handle_plugins(self, image):
         ''' method that chooses plugin to use depending on environment, saves image and sets it as wallpaper
         @param image: Image.Image instance '''
-        # detect our environment
-        self.env = Environment().environment()
+
+        # detect our environment, either from override or env.detector
+        self.env = getattr(settings, 'window_manager_override') or Environment().environment()
         
         # load corresponding plugin
         active_plugin = import_module('plugins.%s' % self.env)
