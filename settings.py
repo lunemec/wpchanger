@@ -23,7 +23,10 @@ window_managers = {'gnome': ['gnome'],
 tmp_image = 'tmp/tempimage'
 
 # abs or relative path where to save resulting wallpaper
-wallpaper_image = '/home/nginx/rosti/static/img/wp.png'
+wallpaper_image = '/root/Documents/wpchanger/wp.png'
 
 # select on which events will resulting wallpaper depend
 events = ['daytime']
+
+# pid file
+pidfile = 'wpchanger.pid'

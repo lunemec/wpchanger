@@ -22470,3 +22470,402 @@
 [DEBUG]2013-02-03 14:04:03.837051 IMAGES calculated and set | steps = 800 | curr_step = 468 | image1 = 4 | image2 = 5 | alpha = 0.68 | img1 = 3 | img2 = 4
 [DEBUG]2013-02-03 14:04:04.324660 Not converting from RGBA to RGB, error: 'bool' object has no attribute 'mode'
 [ERROR]2013-02-03 14:04:04.324874 cannot convert image, check if image is in correct dir
+[DEBUG]2013-02-04 08:10:10.480549 STEP | lctime = 490 | timer = 5 | per_cent_day = 34.0277777778
+[DEBUG]2013-02-04 08:10:10.480549 IMAGES calculated and set | steps = 800 | curr_step = 272 | image1 = 2 | image2 = 3 | alpha = 0.72 | img1 = 1 | img2 = 2
+[DEBUG]2013-02-04 08:10:11.051162 Not converting from RGBA to RGB, error: 'bool' object has no attribute 'mode'
+[ERROR]2013-02-04 08:10:11.051311 cannot convert image, check if image is in correct dir
+[DEBUG]2013-02-04 08:12:53.871119 STEP | lctime = 492 | timer = 5 | per_cent_day = 34.1666666667
+[DEBUG]2013-02-04 08:12:53.871119 IMAGES calculated and set | steps = 800 | curr_step = 273 | image1 = 2 | image2 = 3 | alpha = 0.73 | img1 = 1 | img2 = 2
+[DEBUG]2013-02-04 08:12:54.232296 Not converting from RGBA to RGB, error: 'bool' object has no attribute 'mode'
+[ERROR]2013-02-04 08:12:54.232474 cannot convert image, check if image is in correct dir
+[DEBUG]2013-02-04 08:15:10.334877 STEP | lctime = 495 | timer = 5 | per_cent_day = 34.375
+[DEBUG]2013-02-04 08:15:10.334877 IMAGES calculated and set | steps = 800 | curr_step = 275 | image1 = 2 | image2 = 3 | alpha = 0.75 | img1 = 1 | img2 = 2
+[DEBUG]2013-02-04 08:15:10.706154 Not converting from RGBA to RGB, error: 'bool' object has no attribute 'mode'
+[ERROR]2013-02-04 08:15:10.706294 cannot convert image, check if image is in correct dir, converted_image = False
+[DEBUG]daytime2013-02-04 08:17:09.534913 STEP | lctime = 497 | timer = 5 | per_cent_day = 34.5138888889
+[DEBUG]daytime2013-02-04 08:17:09.534913 IMAGES calculated and set | steps = 800 | curr_step = 276 | image1 = 2 | image2 = 3 | alpha = 0.76 | img1 = 1 | img2 = 2
+[DEBUG]image_convertor2013-02-04 08:17:09.909644 Not converting from RGBA to RGB, error: 'bool' object has no attribute 'mode'
+[ERROR]plugin_handler2013-02-04 08:17:09.909788 cannot convert image, check if image is in correct dir, converted_image = False
+[DEBUG]event2013-02-04 08:18:02.716472 STEP | lctime = 498 | timer = 5 | per_cent_day = 34.5833333333
+[DEBUG]event2013-02-04 08:18:02.716472 IMAGES calculated and set | steps = 800 | curr_step = 276 | image1 = 2 | image2 = 3 | alpha = 0.76 | img1 = 1 | img2 = 2
+[DEBUG]convert_image2013-02-04 08:18:03.078844 Not converting from RGBA to RGB, error: 'bool' object has no attribute 'mode'
+[ERROR]handle_plugins2013-02-04 08:18:03.078988 cannot convert image, check if image is in correct dir, converted_image = False
+[DEBUG] daytime-event:39 2013-02-04 08:19:25.843887 STEP | lctime = 499 | timer = 5 | per_cent_day = 34.6527777778
+[DEBUG] daytime-event:61 2013-02-04 08:19:25.843887 IMAGES calculated and set | steps = 800 | curr_step = 277 | image1 = 2 | image2 = 3 | alpha = 0.77 | img1 = 1 | img2 = 2
+[DEBUG] image_convertor-convert_image:33 2013-02-04 08:19:26.205134 Not converting from RGBA to RGB, error: 'bool' object has no attribute 'mode'
+[ERROR] plugin_handler-handle_plugins:37 2013-02-04 08:19:26.205275 cannot convert image, check if image is in correct dir, converted_image = False
+[DEBUG] daytime event():39 2013-02-04 08:19:47.139390 STEP | lctime = 499 | timer = 5 | per_cent_day = 34.6527777778
+[DEBUG] daytime event():61 2013-02-04 08:19:47.139390 IMAGES calculated and set | steps = 800 | curr_step = 277 | image1 = 2 | image2 = 3 | alpha = 0.77 | img1 = 1 | img2 = 2
+[DEBUG] image_convertor convert_image():33 2013-02-04 08:19:47.510619 Not converting from RGBA to RGB, error: 'bool' object has no attribute 'mode'
+[ERROR] plugin_handler handle_plugins():37 2013-02-04 08:19:47.510763 cannot convert image, check if image is in correct dir, converted_image = False
+[DEBUG] daytime.py event():39 2013-02-04 08:20:02.500225 STEP | lctime = 500 | timer = 5 | per_cent_day = 34.7222222222
+[DEBUG] daytime.py event():61 2013-02-04 08:20:02.500225 IMAGES calculated and set | steps = 800 | curr_step = 277 | image1 = 2 | image2 = 3 | alpha = 0.77 | img1 = 1 | img2 = 2
+[DEBUG] image_convertor.py convert_image():33 2013-02-04 08:20:02.871945 Not converting from RGBA to RGB, error: 'bool' object has no attribute 'mode'
+[ERROR] plugin_handler.py handle_plugins():37 2013-02-04 08:20:02.872090 cannot convert image, check if image is in correct dir, converted_image = False
+[DEBUG] daytime.py event():39 2013-02-04 08:23:26.170050 STEP | lctime = 503 | timer = 5 | per_cent_day = 34.9305555556
+[DEBUG] daytime.py event():61 2013-02-04 08:23:26.170050 IMAGES calculated and set | steps = 800 | curr_step = 279 | image1 = 2 | image2 = 3 | alpha = 0.79 | img1 = 1 | img2 = 2
+[DEBUG] image_convertor.py convert_image():16 Image convertor start, params: True, alpha=True
+[DEBUG] image_convertor.py convert_image():36 Not converting from RGBA to RGB, error: 'bool' object has no attribute 'mode'
+[ERROR] plugin_handler.py handle_plugins():37 2013-02-04 08:23:26.543619 cannot convert image, check if image is in correct dir, converted_image = False
+[DEBUG] daytime.py event():39 2013-02-04 08:25:20.304552 STEP | lctime = 505 | timer = 5 | per_cent_day = 35.0694444444
+[DEBUG] daytime.py event():61 2013-02-04 08:25:20.304552 IMAGES calculated and set | steps = 800 | curr_step = 280 | image1 = 2 | image2 = 3 | alpha = 0.8 | img1 = 1 | img2 = 2
+[DEBUG] daytime.py event():39 2013-02-04 08:25:39.223869 STEP | lctime = 505 | timer = 5 | per_cent_day = 35.0694444444
+[DEBUG] daytime.py event():61 2013-02-04 08:25:39.223869 IMAGES calculated and set | steps = 800 | curr_step = 280 | image1 = 2 | image2 = 3 | alpha = 0.8 | img1 = 1 | img2 = 2
+[DEBUG] daytime.py event():39 2013-02-04 08:25:56.608598 STEP | lctime = 505 | timer = 5 | per_cent_day = 35.0694444444
+[DEBUG] daytime.py event():61 2013-02-04 08:25:56.608598 IMAGES calculated and set | steps = 800 | curr_step = 280 | image1 = 2 | image2 = 3 | alpha = 0.8 | img1 = 1 | img2 = 2
+[DEBUG] plugin_handler.py handle_plugins():24 2013-02-04 08:25:56.969596 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x7F4716541DD0>
+[DEBUG] image_convertor.py convert_image():16 2013-02-04 08:25:56.978484 Image convertor start, params: True, alpha=True
+[DEBUG] image_convertor.py convert_image():36 2013-02-04 08:25:56.978624 Not converting from RGBA to RGB, error: 'bool' object has no attribute 'mode'
+[ERROR] plugin_handler.py handle_plugins():40 2013-02-04 08:25:56.978701 cannot convert image, check if image is in correct dir, converted_image = False
+[DEBUG] 2013-02-04 08:27:13,111 daytime.py event():39 2013-02-04 08:27:13.111638 STEP | lctime = 507 | timer = 5 | per_cent_day = 35.2083333333
+[DEBUG] 2013-02-04 08:27:13,111 daytime.py event():61 2013-02-04 08:27:13.111638 IMAGES calculated and set | steps = 800 | curr_step = 281 | image1 = 2 | image2 = 3 | alpha = 0.81 | img1 = 1 | img2 = 2
+[DEBUG] 2013-02-04 08:27:13,464 plugin_handler.py handle_plugins():24 2013-02-04 08:27:13.464274 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x166BDD0>
+[DEBUG] 2013-02-04 08:27:13,473 image_convertor.py convert_image():16 2013-02-04 08:27:13.473236 Image convertor start, params: True, alpha=True
+[DEBUG] 2013-02-04 08:27:13,473 image_convertor.py convert_image():36 2013-02-04 08:27:13.473429 Not converting from RGBA to RGB, error: 'bool' object has no attribute 'mode'
+[ERROR] 2013-02-04 08:27:13,473 plugin_handler.py handle_plugins():40 2013-02-04 08:27:13.473540 cannot convert image, check if image is in correct dir, converted_image = False
+[DEBUG] 2013-02-04 08:31:47,183 daytime.py event():38 STEP | lctime = 511 | timer = 5 | per_cent_day = 35.4861111111
+[DEBUG] 2013-02-04 08:31:47,183 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 283 | image1 = 2 | image2 = 3 | alpha = 0.83 | img1 = 1 | img2 = 2
+[DEBUG] 2013-02-04 08:31:47,545 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x143CE60>
+[DEBUG] 2013-02-04 08:31:47,554 image_convertor.py convert_image():16 Image convertor start, params: True, alpha=True
+[DEBUG] 2013-02-04 08:31:47,554 image_convertor.py convert_image():36 Not converting from RGBA to RGB, error: 'bool' object has no attribute 'mode'
+[ERROR] 2013-02-04 08:31:47,554 plugin_handler.py handle_plugins():40 cannot convert image, check if image is in correct dir, converted_image = False
+[DEBUG] 2013-02-04 08:34:10,259 daytime.py event():38 STEP | lctime = 514 | timer = 5 | per_cent_day = 35.6944444444
+[DEBUG] 2013-02-04 08:34:10,259 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 285 | image1 = 2 | image2 = 3 | alpha = 0.85 | img1 = 1 | img2 = 2
+[DEBUG] 2013-02-04 08:34:10,615 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x7F271BB35E18>
+[DEBUG] 2013-02-04 08:34:26,715 daytime.py event():38 STEP | lctime = 514 | timer = 5 | per_cent_day = 35.6944444444
+[DEBUG] 2013-02-04 08:34:26,715 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 285 | image1 = 2 | image2 = 3 | alpha = 0.85 | img1 = 1 | img2 = 2
+[DEBUG] 2013-02-04 08:34:27,068 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>
+[DEBUG] 2013-02-04 08:34:27,077 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>, alpha=True
+[DEBUG] 2013-02-04 08:34:31,998 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 08:39:32,098 daytime.py event():38 STEP | lctime = 519 | timer = 5 | per_cent_day = 36.0416666667
+[DEBUG] 2013-02-04 08:39:32,098 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 288 | image1 = 2 | image2 = 3 | alpha = 0.88 | img1 = 1 | img2 = 2
+[DEBUG] 2013-02-04 08:39:32,433 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>
+[DEBUG] 2013-02-04 08:39:32,433 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>, alpha=True
+[DEBUG] 2013-02-04 08:39:37,328 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 08:44:37,428 daytime.py event():38 STEP | lctime = 524 | timer = 5 | per_cent_day = 36.3888888889
+[DEBUG] 2013-02-04 08:44:37,429 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 291 | image1 = 2 | image2 = 3 | alpha = 0.91 | img1 = 1 | img2 = 2
+[DEBUG] 2013-02-04 08:44:37,760 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>
+[DEBUG] 2013-02-04 08:44:37,760 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>, alpha=True
+[DEBUG] 2013-02-04 08:44:42,640 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 08:49:42,731 daytime.py event():38 STEP | lctime = 529 | timer = 5 | per_cent_day = 36.7361111111
+[DEBUG] 2013-02-04 08:49:42,731 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 293 | image1 = 2 | image2 = 3 | alpha = 0.93 | img1 = 1 | img2 = 2
+[DEBUG] 2013-02-04 08:49:43,072 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>
+[DEBUG] 2013-02-04 08:49:43,072 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>, alpha=True
+[DEBUG] 2013-02-04 08:49:47,939 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 08:54:48,040 daytime.py event():38 STEP | lctime = 534 | timer = 5 | per_cent_day = 37.0833333333
+[DEBUG] 2013-02-04 08:54:48,040 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 296 | image1 = 2 | image2 = 3 | alpha = 0.96 | img1 = 1 | img2 = 2
+[DEBUG] 2013-02-04 08:54:48,370 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>
+[DEBUG] 2013-02-04 08:54:48,371 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>, alpha=True
+[DEBUG] 2013-02-04 08:54:53,246 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 08:59:53,347 daytime.py event():38 STEP | lctime = 539 | timer = 5 | per_cent_day = 37.4305555556
+[DEBUG] 2013-02-04 08:59:53,347 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 299 | image1 = 2 | image2 = 3 | alpha = 0.99 | img1 = 1 | img2 = 2
+[DEBUG] 2013-02-04 08:59:53,687 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>
+[DEBUG] 2013-02-04 08:59:53,687 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>, alpha=True
+[DEBUG] 2013-02-04 08:59:58,461 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 09:04:58,562 daytime.py event():38 STEP | lctime = 544 | timer = 5 | per_cent_day = 37.7777777778
+[DEBUG] 2013-02-04 09:04:58,562 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 302 | image1 = 3 | image2 = 4 | alpha = 0.02 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 09:04:58,918 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>
+[DEBUG] 2013-02-04 09:04:58,918 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>, alpha=True
+[DEBUG] 2013-02-04 09:05:03,703 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 09:10:03,804 daytime.py event():38 STEP | lctime = 550 | timer = 5 | per_cent_day = 38.1944444444
+[DEBUG] 2013-02-04 09:10:03,804 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 305 | image1 = 3 | image2 = 4 | alpha = 0.05 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 09:10:04,146 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>
+[DEBUG] 2013-02-04 09:10:04,146 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>, alpha=True
+[DEBUG] 2013-02-04 09:10:08,946 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 09:15:08,955 daytime.py event():38 STEP | lctime = 555 | timer = 5 | per_cent_day = 38.5416666667
+[DEBUG] 2013-02-04 09:15:08,955 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 308 | image1 = 3 | image2 = 4 | alpha = 0.08 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 09:15:09,308 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>
+[DEBUG] 2013-02-04 09:15:09,308 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>, alpha=True
+[DEBUG] 2013-02-04 09:15:14,133 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 09:20:14,205 daytime.py event():38 STEP | lctime = 560 | timer = 5 | per_cent_day = 38.8888888889
+[DEBUG] 2013-02-04 09:20:14,206 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 311 | image1 = 3 | image2 = 4 | alpha = 0.11 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 09:20:14,548 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>
+[DEBUG] 2013-02-04 09:20:14,549 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>, alpha=True
+[DEBUG] 2013-02-04 09:20:19,414 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 09:25:19,514 daytime.py event():38 STEP | lctime = 565 | timer = 5 | per_cent_day = 39.2361111111
+[DEBUG] 2013-02-04 09:25:19,514 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 313 | image1 = 3 | image2 = 4 | alpha = 0.13 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 09:25:19,857 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>
+[DEBUG] 2013-02-04 09:25:19,857 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>, alpha=True
+[DEBUG] 2013-02-04 09:25:24,695 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 09:30:24,796 daytime.py event():38 STEP | lctime = 570 | timer = 5 | per_cent_day = 39.5833333333
+[DEBUG] 2013-02-04 09:30:24,796 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 316 | image1 = 3 | image2 = 4 | alpha = 0.16 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 09:30:25,147 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>
+[DEBUG] 2013-02-04 09:30:25,147 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>, alpha=True
+[DEBUG] 2013-02-04 09:30:29,978 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 09:35:29,984 daytime.py event():38 STEP | lctime = 575 | timer = 5 | per_cent_day = 39.9305555556
+[DEBUG] 2013-02-04 09:35:29,984 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 319 | image1 = 3 | image2 = 4 | alpha = 0.19 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 09:35:30,328 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>
+[DEBUG] 2013-02-04 09:35:30,328 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>, alpha=True
+[DEBUG] 2013-02-04 09:35:35,218 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 09:40:35,224 daytime.py event():38 STEP | lctime = 580 | timer = 5 | per_cent_day = 40.2777777778
+[DEBUG] 2013-02-04 09:40:35,224 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 322 | image1 = 3 | image2 = 4 | alpha = 0.22 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 09:40:35,569 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>
+[DEBUG] 2013-02-04 09:40:35,569 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>, alpha=True
+[DEBUG] 2013-02-04 09:40:40,494 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 09:45:40,583 daytime.py event():38 STEP | lctime = 585 | timer = 5 | per_cent_day = 40.625
+[DEBUG] 2013-02-04 09:45:40,584 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 325 | image1 = 3 | image2 = 4 | alpha = 0.25 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 09:45:40,938 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>
+[DEBUG] 2013-02-04 09:45:40,938 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>, alpha=True
+[DEBUG] 2013-02-04 09:45:45,775 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 09:50:45,875 daytime.py event():38 STEP | lctime = 590 | timer = 5 | per_cent_day = 40.9722222222
+[DEBUG] 2013-02-04 09:50:45,875 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 327 | image1 = 3 | image2 = 4 | alpha = 0.27 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 09:50:46,220 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>
+[DEBUG] 2013-02-04 09:50:46,220 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>, alpha=True
+[DEBUG] 2013-02-04 09:50:51,034 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 09:55:51,093 daytime.py event():38 STEP | lctime = 595 | timer = 5 | per_cent_day = 41.3194444444
+[DEBUG] 2013-02-04 09:55:51,093 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 330 | image1 = 3 | image2 = 4 | alpha = 0.3 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 09:55:51,437 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>
+[DEBUG] 2013-02-04 09:55:51,438 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>, alpha=True
+[DEBUG] 2013-02-04 09:55:56,225 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 10:00:56,268 daytime.py event():38 STEP | lctime = 600 | timer = 5 | per_cent_day = 41.6666666667
+[DEBUG] 2013-02-04 10:00:56,269 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 333 | image1 = 3 | image2 = 4 | alpha = 0.33 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 10:00:56,614 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>
+[DEBUG] 2013-02-04 10:00:56,614 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>, alpha=True
+[DEBUG] 2013-02-04 10:01:01,395 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 10:06:01,495 daytime.py event():38 STEP | lctime = 606 | timer = 5 | per_cent_day = 42.0833333333
+[DEBUG] 2013-02-04 10:06:01,496 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 336 | image1 = 3 | image2 = 4 | alpha = 0.36 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 10:06:01,840 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>
+[DEBUG] 2013-02-04 10:06:01,840 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>, alpha=True
+[DEBUG] 2013-02-04 10:06:06,643 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 10:11:06,744 daytime.py event():38 STEP | lctime = 611 | timer = 5 | per_cent_day = 42.4305555556
+[DEBUG] 2013-02-04 10:11:06,744 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 339 | image1 = 3 | image2 = 4 | alpha = 0.39 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 10:11:07,096 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>
+[DEBUG] 2013-02-04 10:11:07,096 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>, alpha=True
+[DEBUG] 2013-02-04 10:11:11,848 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 10:16:11,941 daytime.py event():38 STEP | lctime = 616 | timer = 5 | per_cent_day = 42.7777777778
+[DEBUG] 2013-02-04 10:16:11,941 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 342 | image1 = 3 | image2 = 4 | alpha = 0.42 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 10:16:12,297 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>
+[DEBUG] 2013-02-04 10:16:12,298 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>, alpha=True
+[DEBUG] 2013-02-04 10:16:17,041 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 10:21:17,052 daytime.py event():38 STEP | lctime = 621 | timer = 5 | per_cent_day = 43.125
+[DEBUG] 2013-02-04 10:21:17,052 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 345 | image1 = 3 | image2 = 4 | alpha = 0.45 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 10:21:17,398 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>
+[DEBUG] 2013-02-04 10:21:17,398 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>, alpha=True
+[DEBUG] 2013-02-04 10:21:22,120 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 10:26:22,198 daytime.py event():38 STEP | lctime = 626 | timer = 5 | per_cent_day = 43.4722222222
+[DEBUG] 2013-02-04 10:26:22,198 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 347 | image1 = 3 | image2 = 4 | alpha = 0.47 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 10:26:22,554 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>
+[DEBUG] 2013-02-04 10:26:22,554 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>, alpha=True
+[DEBUG] 2013-02-04 10:26:27,218 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 10:31:27,318 daytime.py event():38 STEP | lctime = 631 | timer = 5 | per_cent_day = 43.8194444444
+[DEBUG] 2013-02-04 10:31:27,319 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 350 | image1 = 3 | image2 = 4 | alpha = 0.5 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 10:31:27,665 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>
+[DEBUG] 2013-02-04 10:31:27,665 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>, alpha=True
+[DEBUG] 2013-02-04 10:31:32,306 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 10:36:32,316 daytime.py event():38 STEP | lctime = 636 | timer = 5 | per_cent_day = 44.1666666667
+[DEBUG] 2013-02-04 10:36:32,316 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 353 | image1 = 3 | image2 = 4 | alpha = 0.53 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 10:36:32,661 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>
+[DEBUG] 2013-02-04 10:36:32,661 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>, alpha=True
+[DEBUG] 2013-02-04 10:36:37,280 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 10:41:37,286 daytime.py event():38 STEP | lctime = 641 | timer = 5 | per_cent_day = 44.5138888889
+[DEBUG] 2013-02-04 10:41:37,286 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 356 | image1 = 3 | image2 = 4 | alpha = 0.56 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 10:41:37,631 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>
+[DEBUG] 2013-02-04 10:41:37,631 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>, alpha=True
+[DEBUG] 2013-02-04 10:41:42,259 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 10:46:42,260 daytime.py event():38 STEP | lctime = 646 | timer = 5 | per_cent_day = 44.8611111111
+[DEBUG] 2013-02-04 10:46:42,261 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 358 | image1 = 3 | image2 = 4 | alpha = 0.58 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 10:46:42,607 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>
+[DEBUG] 2013-02-04 10:46:42,607 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>, alpha=True
+[DEBUG] 2013-02-04 10:46:47,229 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 10:51:47,252 daytime.py event():38 STEP | lctime = 651 | timer = 5 | per_cent_day = 45.2083333333
+[DEBUG] 2013-02-04 10:51:47,252 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 361 | image1 = 3 | image2 = 4 | alpha = 0.61 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 10:51:47,597 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>
+[DEBUG] 2013-02-04 10:51:47,597 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>, alpha=True
+[DEBUG] 2013-02-04 10:51:52,218 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 10:56:52,228 daytime.py event():38 STEP | lctime = 656 | timer = 5 | per_cent_day = 45.5555555556
+[DEBUG] 2013-02-04 10:56:52,228 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 364 | image1 = 3 | image2 = 4 | alpha = 0.64 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 10:56:52,583 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>
+[DEBUG] 2013-02-04 10:56:52,583 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>, alpha=True
+[DEBUG] 2013-02-04 10:56:57,200 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 11:01:57,212 daytime.py event():38 STEP | lctime = 661 | timer = 5 | per_cent_day = 45.9027777778
+[DEBUG] 2013-02-04 11:01:57,212 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 367 | image1 = 3 | image2 = 4 | alpha = 0.67 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 11:01:57,568 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>
+[DEBUG] 2013-02-04 11:01:57,568 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>, alpha=True
+[DEBUG] 2013-02-04 11:02:02,156 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 11:07:02,161 daytime.py event():38 STEP | lctime = 667 | timer = 5 | per_cent_day = 46.3194444444
+[DEBUG] 2013-02-04 11:07:02,161 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 370 | image1 = 3 | image2 = 4 | alpha = 0.7 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 11:07:02,515 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>
+[DEBUG] 2013-02-04 11:07:02,515 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>, alpha=True
+[DEBUG] 2013-02-04 11:07:07,111 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 11:12:07,183 daytime.py event():38 STEP | lctime = 672 | timer = 5 | per_cent_day = 46.6666666667
+[DEBUG] 2013-02-04 11:12:07,183 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 373 | image1 = 3 | image2 = 4 | alpha = 0.73 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 11:12:07,537 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>
+[DEBUG] 2013-02-04 11:12:07,537 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>, alpha=True
+[DEBUG] 2013-02-04 11:12:12,122 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 11:17:12,214 daytime.py event():38 STEP | lctime = 677 | timer = 5 | per_cent_day = 47.0138888889
+[DEBUG] 2013-02-04 11:17:12,214 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 376 | image1 = 3 | image2 = 4 | alpha = 0.76 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 11:17:12,559 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>
+[DEBUG] 2013-02-04 11:17:12,559 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>, alpha=True
+[DEBUG] 2013-02-04 11:17:17,130 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 11:22:17,219 daytime.py event():38 STEP | lctime = 682 | timer = 5 | per_cent_day = 47.3611111111
+[DEBUG] 2013-02-04 11:22:17,219 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 378 | image1 = 3 | image2 = 4 | alpha = 0.78 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 11:22:17,573 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>
+[DEBUG] 2013-02-04 11:22:17,574 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>, alpha=True
+[DEBUG] 2013-02-04 11:22:22,158 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 11:27:22,259 daytime.py event():38 STEP | lctime = 687 | timer = 5 | per_cent_day = 47.7083333333
+[DEBUG] 2013-02-04 11:27:22,259 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 381 | image1 = 3 | image2 = 4 | alpha = 0.81 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 11:27:22,613 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>
+[DEBUG] 2013-02-04 11:27:22,614 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>, alpha=True
+[DEBUG] 2013-02-04 11:27:27,206 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 11:32:27,224 daytime.py event():38 STEP | lctime = 692 | timer = 5 | per_cent_day = 48.0555555556
+[DEBUG] 2013-02-04 11:32:27,224 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 384 | image1 = 3 | image2 = 4 | alpha = 0.84 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 11:32:27,569 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>
+[DEBUG] 2013-02-04 11:32:27,569 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>, alpha=True
+[DEBUG] 2013-02-04 11:32:32,114 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 11:37:32,127 daytime.py event():38 STEP | lctime = 697 | timer = 5 | per_cent_day = 48.4027777778
+[DEBUG] 2013-02-04 11:37:32,127 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 387 | image1 = 3 | image2 = 4 | alpha = 0.87 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 11:37:32,481 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>
+[DEBUG] 2013-02-04 11:37:32,481 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>, alpha=True
+[DEBUG] 2013-02-04 11:37:36,998 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 11:42:37,031 daytime.py event():38 STEP | lctime = 702 | timer = 5 | per_cent_day = 48.75
+[DEBUG] 2013-02-04 11:42:37,031 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 390 | image1 = 3 | image2 = 4 | alpha = 0.9 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 11:42:37,386 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>
+[DEBUG] 2013-02-04 11:42:37,387 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>, alpha=True
+[DEBUG] 2013-02-04 11:42:41,850 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 11:47:41,914 daytime.py event():38 STEP | lctime = 707 | timer = 5 | per_cent_day = 49.0972222222
+[DEBUG] 2013-02-04 11:47:41,914 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 392 | image1 = 3 | image2 = 4 | alpha = 0.92 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 11:47:42,268 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>
+[DEBUG] 2013-02-04 11:47:42,268 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>, alpha=True
+[DEBUG] 2013-02-04 11:47:46,717 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 11:52:46,809 daytime.py event():38 STEP | lctime = 712 | timer = 5 | per_cent_day = 49.4444444444
+[DEBUG] 2013-02-04 11:52:46,809 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 395 | image1 = 3 | image2 = 4 | alpha = 0.95 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 11:52:47,160 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>
+[DEBUG] 2013-02-04 11:52:47,160 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>, alpha=True
+[DEBUG] 2013-02-04 11:52:51,555 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 11:57:51,641 daytime.py event():38 STEP | lctime = 717 | timer = 5 | per_cent_day = 49.7916666667
+[DEBUG] 2013-02-04 11:57:51,641 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 398 | image1 = 3 | image2 = 4 | alpha = 0.98 | img1 = 2 | img2 = 3
+[DEBUG] 2013-02-04 11:57:51,993 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>
+[DEBUG] 2013-02-04 11:57:51,994 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>, alpha=True
+[DEBUG] 2013-02-04 11:57:56,266 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 12:02:56,341 daytime.py event():38 STEP | lctime = 722 | timer = 5 | per_cent_day = 50.1388888889
+[DEBUG] 2013-02-04 12:02:56,341 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 401 | image1 = 4 | image2 = 5 | alpha = 0.01 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 12:02:56,684 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>
+[DEBUG] 2013-02-04 12:02:56,684 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>, alpha=True
+[DEBUG] 2013-02-04 12:03:00,947 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 12:08:01,048 daytime.py event():38 STEP | lctime = 728 | timer = 5 | per_cent_day = 50.5555555556
+[DEBUG] 2013-02-04 12:08:01,048 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 404 | image1 = 4 | image2 = 5 | alpha = 0.04 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 12:08:01,387 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>
+[DEBUG] 2013-02-04 12:08:01,388 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>, alpha=True
+[DEBUG] 2013-02-04 12:08:05,706 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 12:13:05,795 daytime.py event():38 STEP | lctime = 733 | timer = 5 | per_cent_day = 50.9027777778
+[DEBUG] 2013-02-04 12:13:05,795 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 407 | image1 = 4 | image2 = 5 | alpha = 0.07 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 12:13:06,135 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>
+[DEBUG] 2013-02-04 12:13:06,135 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>, alpha=True
+[DEBUG] 2013-02-04 12:13:10,487 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 12:18:10,587 daytime.py event():38 STEP | lctime = 738 | timer = 5 | per_cent_day = 51.25
+[DEBUG] 2013-02-04 12:18:10,587 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 410 | image1 = 4 | image2 = 5 | alpha = 0.1 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 12:18:10,922 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>
+[DEBUG] 2013-02-04 12:18:10,922 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>, alpha=True
+[DEBUG] 2013-02-04 12:18:15,311 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 12:23:15,317 daytime.py event():38 STEP | lctime = 743 | timer = 5 | per_cent_day = 51.5972222222
+[DEBUG] 2013-02-04 12:23:15,317 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 412 | image1 = 4 | image2 = 5 | alpha = 0.12 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 12:23:15,650 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>
+[DEBUG] 2013-02-04 12:23:15,650 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>, alpha=True
+[DEBUG] 2013-02-04 12:23:20,096 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 12:28:20,177 daytime.py event():38 STEP | lctime = 748 | timer = 5 | per_cent_day = 51.9444444444
+[DEBUG] 2013-02-04 12:28:20,177 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 415 | image1 = 4 | image2 = 5 | alpha = 0.15 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 12:28:20,519 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>
+[DEBUG] 2013-02-04 12:28:20,519 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>, alpha=True
+[DEBUG] 2013-02-04 12:28:25,026 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 12:33:25,124 daytime.py event():38 STEP | lctime = 753 | timer = 5 | per_cent_day = 52.2916666667
+[DEBUG] 2013-02-04 12:33:25,124 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 418 | image1 = 4 | image2 = 5 | alpha = 0.18 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 12:33:25,463 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>
+[DEBUG] 2013-02-04 12:33:25,463 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>, alpha=True
+[DEBUG] 2013-02-04 12:33:29,992 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 12:38:30,092 daytime.py event():38 STEP | lctime = 758 | timer = 5 | per_cent_day = 52.6388888889
+[DEBUG] 2013-02-04 12:38:30,092 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 421 | image1 = 4 | image2 = 5 | alpha = 0.21 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 12:38:30,421 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>
+[DEBUG] 2013-02-04 12:38:30,421 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>, alpha=True
+[DEBUG] 2013-02-04 12:38:34,854 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 12:43:34,954 daytime.py event():38 STEP | lctime = 763 | timer = 5 | per_cent_day = 52.9861111111
+[DEBUG] 2013-02-04 12:43:34,955 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 423 | image1 = 4 | image2 = 5 | alpha = 0.23 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 12:43:35,295 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>
+[DEBUG] 2013-02-04 12:43:35,295 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>, alpha=True
+[DEBUG] 2013-02-04 12:43:39,885 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 12:48:39,893 daytime.py event():38 STEP | lctime = 768 | timer = 5 | per_cent_day = 53.3333333333
+[DEBUG] 2013-02-04 12:48:39,893 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 426 | image1 = 4 | image2 = 5 | alpha = 0.26 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 12:48:40,230 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>
+[DEBUG] 2013-02-04 12:48:40,230 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>, alpha=True
+[DEBUG] 2013-02-04 12:48:44,845 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 12:53:44,858 daytime.py event():38 STEP | lctime = 773 | timer = 5 | per_cent_day = 53.6805555556
+[DEBUG] 2013-02-04 12:53:44,858 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 429 | image1 = 4 | image2 = 5 | alpha = 0.29 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 12:53:45,196 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>
+[DEBUG] 2013-02-04 12:53:45,196 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>, alpha=True
+[DEBUG] 2013-02-04 12:53:49,772 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 12:58:49,777 daytime.py event():38 STEP | lctime = 778 | timer = 5 | per_cent_day = 54.0277777778
+[DEBUG] 2013-02-04 12:58:49,778 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 432 | image1 = 4 | image2 = 5 | alpha = 0.32 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 12:58:50,127 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>
+[DEBUG] 2013-02-04 12:58:50,127 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>, alpha=True
+[DEBUG] 2013-02-04 12:58:54,681 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 13:03:54,699 daytime.py event():38 STEP | lctime = 783 | timer = 5 | per_cent_day = 54.375
+[DEBUG] 2013-02-04 13:03:54,699 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 435 | image1 = 4 | image2 = 5 | alpha = 0.35 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 13:03:55,036 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>
+[DEBUG] 2013-02-04 13:03:55,036 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D128C0>, alpha=True
+[DEBUG] 2013-02-04 13:03:59,538 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 13:08:59,639 daytime.py event():38 STEP | lctime = 788 | timer = 5 | per_cent_day = 54.7222222222
+[DEBUG] 2013-02-04 13:08:59,639 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 437 | image1 = 4 | image2 = 5 | alpha = 0.37 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 13:08:59,978 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>
+[DEBUG] 2013-02-04 13:08:59,978 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12E60>, alpha=True
+[DEBUG] 2013-02-04 13:09:04,438 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[ERROR] 2013-02-04 13:13:12,917 events_handler.py handle_events():71 event error: 'module' object has no attribute 'ImagePaths' AttributeError("'module' object has no attribute 'ImagePaths'",)
+[DEBUG] 2013-02-04 13:14:04,502 daytime.py event():38 STEP | lctime = 794 | timer = 5 | per_cent_day = 55.1388888889
+[DEBUG] 2013-02-04 13:14:04,502 daytime.py event():59 IMAGES calculated and set | steps = 800 | curr_step = 441 | image1 = 4 | image2 = 5 | alpha = 0.41 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 13:14:04,830 plugin_handler.py handle_plugins():24 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>
+[DEBUG] 2013-02-04 13:14:04,830 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x1D12BD8>, alpha=True
+[DEBUG] 2013-02-04 13:14:09,286 plugin_handler.py handle_plugins():58 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[ERROR] 2013-02-04 13:14:51,261 events_handler.py handle_events():71 event error: AttributeError("'module' object has no attribute 'ImagePaths'",)
+[DEBUG] 2013-02-04 13:19:24,186 daytime.py event():34 STEP | lctime = 799 | timer = 5 | per_cent_day = 55.4861111111
+[DEBUG] 2013-02-04 13:19:24,187 daytime.py event():55 IMAGES calculated and set | steps = 800 | curr_step = 443 | image1 = 4 | image2 = 5 | alpha = 0.43 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 13:19:24,547 plugin_handler.py handle_plugins():51 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x21C2D40>
+[DEBUG] 2013-02-04 13:22:13,801 daytime.py event():34 STEP | lctime = 802 | timer = 5 | per_cent_day = 55.6944444444
+[DEBUG] 2013-02-04 13:22:13,801 daytime.py event():55 IMAGES calculated and set | steps = 800 | curr_step = 445 | image1 = 4 | image2 = 5 | alpha = 0.45 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 13:22:14,152 plugin_handler.py handle_plugins():51 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x7F01BC473D88>
+[DEBUG] 2013-02-04 13:22:57,040 daytime.py event():34 STEP | lctime = 802 | timer = 5 | per_cent_day = 55.6944444444
+[DEBUG] 2013-02-04 13:22:57,040 daytime.py event():55 IMAGES calculated and set | steps = 800 | curr_step = 445 | image1 = 4 | image2 = 5 | alpha = 0.45 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 13:22:57,400 plugin_handler.py handle_plugins():51 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x7FBDF289BD88>
+[DEBUG] 2013-02-04 13:23:15,743 daytime.py event():34 STEP | lctime = 803 | timer = 5 | per_cent_day = 55.7638888889
+[DEBUG] 2013-02-04 13:23:15,743 daytime.py event():55 IMAGES calculated and set | steps = 800 | curr_step = 446 | image1 = 4 | image2 = 5 | alpha = 0.46 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 13:23:16,093 plugin_handler.py handle_plugins():51 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x7FD5E4FECD88>
+[DEBUG] 2013-02-04 13:25:15,894 daytime.py event():34 STEP | lctime = 805 | timer = 5 | per_cent_day = 55.9027777778
+[DEBUG] 2013-02-04 13:25:15,894 daytime.py event():55 IMAGES calculated and set | steps = 800 | curr_step = 447 | image1 = 4 | image2 = 5 | alpha = 0.47 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 13:25:16,245 plugin_handler.py handle_plugins():51 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x7FAC8B388D40>
+[DEBUG] 2013-02-04 13:25:41,782 daytime.py event():34 STEP | lctime = 805 | timer = 5 | per_cent_day = 55.9027777778
+[DEBUG] 2013-02-04 13:25:41,782 daytime.py event():55 IMAGES calculated and set | steps = 800 | curr_step = 447 | image1 = 4 | image2 = 5 | alpha = 0.47 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 13:25:42,143 plugin_handler.py handle_plugins():51 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x7FB3C4038CF8>
+[DEBUG] 2013-02-04 13:26:26,606 daytime.py event():34 STEP | lctime = 806 | timer = 5 | per_cent_day = 55.9722222222
+[DEBUG] 2013-02-04 13:26:26,606 daytime.py event():55 IMAGES calculated and set | steps = 800 | curr_step = 447 | image1 = 4 | image2 = 5 | alpha = 0.47 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 13:26:26,966 plugin_handler.py handle_plugins():51 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x7F5D821BED40>
+[DEBUG] 2013-02-04 13:27:22,285 daytime.py event():34 STEP | lctime = 807 | timer = 5 | per_cent_day = 56.0416666667
+[DEBUG] 2013-02-04 13:27:22,285 daytime.py event():55 IMAGES calculated and set | steps = 800 | curr_step = 448 | image1 = 4 | image2 = 5 | alpha = 0.48 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 13:27:22,638 plugin_handler.py handle_plugins():51 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x7F5C6F3BFD40>
+[DEBUG] 2013-02-04 13:27:22,646 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x7F5C6F3BFD40>, alpha=True
+[DEBUG] 2013-02-04 13:27:26,957 plugin_handler.py handle_plugins():69 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 13:32:27,057 daytime.py event():34 STEP | lctime = 812 | timer = 5 | per_cent_day = 56.3888888889
+[DEBUG] 2013-02-04 13:32:27,058 daytime.py event():55 IMAGES calculated and set | steps = 800 | curr_step = 451 | image1 = 4 | image2 = 5 | alpha = 0.51 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 13:32:27,397 plugin_handler.py handle_plugins():51 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x7F5C6F3BFAB8>
+[DEBUG] 2013-02-04 13:32:27,397 image_convertor.py convert_image():16 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x7F5C6F3BFAB8>, alpha=True
+[DEBUG] 2013-02-04 13:32:31,655 plugin_handler.py handle_plugins():69 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 13:44:18,996 run.py main():32 --- start ---
+[DEBUG] 2013-02-04 13:44:18,996 run.py main():38 handling events
+[DEBUG] 2013-02-04 13:44:18,999 daytime.py event():34 STEP | lctime = 824 | timer = 5 | per_cent_day = 57.2222222222
+[DEBUG] 2013-02-04 13:44:18,999 daytime.py event():55 IMAGES calculated and set | steps = 800 | curr_step = 457 | image1 = 4 | image2 = 5 | alpha = 0.57 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 13:44:36,424 run.py main():32 --- start ---
+[DEBUG] 2013-02-04 13:44:36,425 run.py main():38 handling events
+[DEBUG] 2013-02-04 13:44:36,427 daytime.py event():34 STEP | lctime = 824 | timer = 5 | per_cent_day = 57.2222222222
+[DEBUG] 2013-02-04 13:44:36,427 daytime.py event():55 IMAGES calculated and set | steps = 800 | curr_step = 457 | image1 = 4 | image2 = 5 | alpha = 0.57 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 13:45:36,360 run.py main():32 --- start ---
+[DEBUG] 2013-02-04 13:45:36,360 run.py main():38 handling events
+[DEBUG] 2013-02-04 13:45:36,362 daytime.py event():34 STEP | lctime = 825 | timer = 5 | per_cent_day = 57.2916666667
+[DEBUG] 2013-02-04 13:45:36,363 daytime.py event():55 IMAGES calculated and set | steps = 800 | curr_step = 458 | image1 = 4 | image2 = 5 | alpha = 0.58 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 13:45:36,714 run.py main():59 handling plugins
+[DEBUG] 2013-02-04 13:45:36,714 plugin_handler.py handle_plugins():50 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0xD4DD88>
+[DEBUG] 2013-02-04 13:45:36,722 image_convertor.py convert_image():14 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0xD4DD88>, alpha=True
+[DEBUG] 2013-02-04 13:45:41,014 plugin_handler.py handle_plugins():68 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png
+[DEBUG] 2013-02-04 13:48:23,039 run.py main():32 --- start ---
+[DEBUG] 2013-02-04 13:48:23,039 run.py main():38 handling events
+[DEBUG] 2013-02-04 13:48:23,041 daytime.py event():34 STEP | lctime = 828 | timer = 5 | per_cent_day = 57.5
+[DEBUG] 2013-02-04 13:48:23,042 daytime.py event():55 IMAGES calculated and set | steps = 800 | curr_step = 460 | image1 = 4 | image2 = 5 | alpha = 0.6 | img1 = 3 | img2 = 4
+[DEBUG] 2013-02-04 13:48:23,393 run.py main():59 handling plugins
+[DEBUG] 2013-02-04 13:48:23,393 plugin_handler.py handle_plugins():50 handle_plugins start, params: <Image.Image image mode=RGB size=3072x1920 at 0x10F8DD0>
+[DEBUG] 2013-02-04 13:48:23,402 image_convertor.py convert_image():14 Image convertor start, params: <Image.Image image mode=RGB size=3072x1920 at 0x10F8DD0>, alpha=True
+[DEBUG] 2013-02-04 13:48:27,694 plugin_handler.py handle_plugins():68 successfully set wallpaper from /root/Documents/wpchanger/tmp/tempimage.png

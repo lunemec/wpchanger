@@ -10,19 +10,13 @@ You can use it to generate fractals or something like that using python imaging 
 some conditions, there are no limits to ones imagination.
 
 
-
 --- Plugins ---
 name pluigns so they would correspond to settings.window_managers key and environment_detector ('gnome.py', 'kde.py', 'windows.py', 'macos.py')
 
-each plugin contains one class with method set_wallpaper that takes wallpaper image file with absolute or relative path and sets it as a desktop.
+each plugin function set_wallpaper that takes wallpaper image file with absolute or relative path and sets it as a desktop.
 method needs to return True if success or False on error.
-class needs to inherit from common.BaseClass and needs to have same name as the plugins name
-must have parameter image_alpha set to False or True depending on ability to handle PNG files with alpha in them, if is set to False, program will save
-wallpaper as BMP without alpha
+image_alpha attribute describes if windowmanager can process PNG files, if not set it defaults to False, that means program will save wallpaper as BMP
 
-class can then access logging in self.log and datetime in self.datetime
-
-if you need to override __init__(self), make sure to call super(classname, self).__init__()!
 
 Example:
 'mywindowmanager.py'
@@ -33,22 +27,21 @@ import os
 
 from common import BaseClass
 
-class mywindowmanager(BaseClass): # name class same way as file!
-	image_alpha = False
-	
-	def set_wallpaper(self, image_file_with_path):
-		filepath = os.path.abspath(image_file_with_path)
-		
-		try:
-			# try to set wallpaper
-			# NOTE: this will work, but there is no way of telling if wallpaper was set or not, and also Exception below would occur only if imgfile would
-			# be something horrible, so almost never
-			call(['feh', '--bg-fill', imgfile])
-			return True
-		
-		except Exception, e:
-			self.log.error('%s Error while setting wallpaper image: %s, error was: %s' % (self.datetime.datetime.now(), image_file_with_path, e))
-			return False
+image_alpha = False
+
+def set_wallpaper(self, image_file_with_path):
+    filepath = os.path.abspath(image_file_with_path)
+    
+    try:
+        # try to set wallpaper
+        # NOTE: this will work, but there is no way of telling if wallpaper was set or not, and also Exception below would occur only if imgfile would
+        # be something horrible, so almost never
+        call(['feh', '--bg-fill', imgfile])
+        return True
+    
+    except Exception, e:
+        self.log.error('%s Error while setting wallpaper image: %s, error was: %s' % (self.datetime.datetime.now(), image_file_with_path, e))
+        return False
 
 -----------------------------------------
 
@@ -56,13 +49,11 @@ class mywindowmanager(BaseClass): # name class same way as file!
 name events so they would correspond to settings.events
 at each time at least one event provinding 'image' must be active!
 
-each event must contain one class with same name as its filename e.g.: myevent.py, class myevent(object or BaseClass)
-each class must contain provides attribute which is string 'folder' or 'image'
+event must have provides attribute (str) that specifies what this event does 'folder' or 'image'
+
 only one 'folder' event may be active at the same time
-each class must have method event() that will take only **kwargs and from this dict take all the data it needs
-**kwargs is passed from lib/event_handler.py from __get_event_result where are kwargs set, note that this is needed only
-when your event requires information passed from other events or from event_handler itself, therefore if your event requires only
-hardware temperature, **kwargs will not be used, and you may write it any way you'd like 
+event must have event function that takes **kwargs with data it needs to do what it does
+**kwargs is passed from lib/event_handler.py from get_event_result where are kwargs set
 
 event that has provides set to 'folder' must return unicode string with absolute path to images folder
 event that has provides set to 'image' must return (u'/abs/path/to/image1', u'/abs/path/to/image2', alpha), alpha is float
@@ -79,18 +70,17 @@ import os
 from lib.common import BaseClass
 import settings
 
-class myevent(BaseClass):
     
-    provides = 'folder'
-            
-    def event(self, **kwargs):
-    	
-    	folder = 'kwargs.get('param1')/kwargs.get('param2')'
+provides = 'folder'
+        
+def event(self, **kwargs):
+    
+    folder = 'kwargs.get('param1')/kwargs.get('param2')'
 
-        return folder.decode('utf-8')
+    return folder.decode('utf-8')
 -----------------------------------------
 
 
---- lib.common.BaseClass ---
-this is just convenience class that provides access to program log, and some often used libraries (datetime)
-you can access them by inheriting BaseClass in your class, then just do self.shared_method_or_attribute
+--- lib.common ---
+this is just convenience module that has log attribute for common logging scheme
+this may contain more common attributes/functions in future 
