@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 # should contain which program to call to change wallpaper in your environment
 
+# abs or relative path where to save resulting wallpaper
+wallpaper_image = '/root/Documents/wpchanger/wp.png'
+
 logfile = 'wpchanger.log'
 
 # absolute or relative path to images folder (absolute path is better)
@@ -21,9 +24,6 @@ window_managers = {'gnome': ['gnome'],
 
 # name of temporary image to save (without .bmp/.png)
 tmp_image = 'tmp/tempimage'
-
-# abs or relative path where to save resulting wallpaper
-wallpaper_image = '/root/Documents/wpchanger/wp.png'
 
 # select on which events will resulting wallpaper depend
 events = ['daytime']
