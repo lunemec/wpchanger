@@ -12,10 +12,13 @@ provides = 'image'
 
 
 def event(**kwargs):
-    ''' calculates which 2 images to merge and with what alpha provided images list and time
+    '''
+    calculates which 2 images to merge and with what alpha provided images list and time
+
     @param imgs_list: list unicode strings
     @param time: datetime.datetime object
-    @return (string, string, float) or False on error'''
+    @return (string, string, float) or False on error
+    '''
 
     imgs_list = get_paths(kwargs['dir'])
     time = datetime.datetime.now()
@@ -45,7 +48,7 @@ def event(**kwargs):
         img1 = int(image1) - 1
         img2 = int(image2) - 1
 
-        log.debug('IMAGES calculated and set | steps = %s | curr_step = %s | image1 = %s | image2 = %s | alpha = %s | img1 = %s | img2 = %s' %
+        log.debug('images calculated | steps = %s | curr_step = %s | image1 = %s | image2 = %s | alpha = %s | img1 = %s | img2 = %s' %
                   (steps,
                    curr_step,
                    image1,

@@ -12,11 +12,14 @@ provides = 'folder'
 
 
 def event(**kwargs):
-    ''' returns folder corresponding to current season
+    '''
+    returns folder corresponding to current season
+
     @param images_folder: unicode string
     @param date: datetime.date object
     @param reverse: boolean
-    @return unicode string '''
+    @return unicode string
+    '''
 
     images_folder = settings.images_dir
     date = datetime.date.today()
@@ -52,9 +55,12 @@ def event(**kwargs):
 
 
 def current_season(today):
-    ''' returns current season or False
+    '''
+    returns current season or False
+
     @param today: datetime.date object
-    @return string'''
+    @return string
+    '''
 
     # seasons in format (MM, DD) (start, end) WITHOUT LEADING ZERO!
     seasons = {'spring': ((3, 2), (5, 31)),

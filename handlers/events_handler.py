@@ -18,7 +18,9 @@ class ImportedEvents(object):
 
 
 def handle_events():
-    ''' loads active events from settings, activates them and result is used for image merging
+    '''
+    loads active events from settings, activates them and result is used for image merging
+
     @return [(img1, img2, alpha), (img1, img2, alpha)]
     '''
 
@@ -73,9 +75,12 @@ def handle_events():
 
 
 def get_event_result(event, curr_directory, reverse):
-    ''' calls specified event and returns its result
+    '''
+    calls specified event and returns its result
+
     @param event: string
-    @return event result '''
+    @return event result
+    '''
 
     kwargs = {'dir': curr_directory,
               'reverse': reverse,
