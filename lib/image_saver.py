@@ -6,7 +6,7 @@ import os
 import settings
 
 from common import BaseClass
-from environment_detector import Environment
+
 
 class SaveImage(BaseClass):
         

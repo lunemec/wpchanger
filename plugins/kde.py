@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os
+import shutil
 from subprocess import call
 
 import settings
@@ -25,6 +26,6 @@ class kde(BaseClass):
 
         wallpaper = os.path.abspath(settings.wallpaper_image)
 
-        os.rename(filepath, wallpaper)
+        shutil.copyfile(filepath, wallpaper)
 
         return True

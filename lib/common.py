@@ -12,3 +12,5 @@ class BaseClass(object):
         logging.basicConfig(filename=settings.logfile, format='[%(levelname)s]%(message)s', level=logging.DEBUG)
         self.log = logging
         self.datetime = datetime
+
+log = BaseClass().log

@@ -4,7 +4,7 @@
 logfile = 'wpchanger.log'
 
 # absolute or relative path to images folder (absolute path is better)
-images_dir = '../../images'
+images_dir = 'images'
 
 # interval for image refresh in minutes
 change_interval = 5
@@ -13,7 +13,7 @@ change_interval = 5
 image_types = ['.jpg', '.png', '.bmp']
 
 # override window manager settings with (uncomment to enable)
-#window_manager_override = 'kde'
+window_manager_override = 'kde'
 
 # dict with window managers we can detect format is following: 'window_manager': ['string1_to_look_for', 'string2_to_look_for']
 window_managers = {'gnome': ['gnome'],
@@ -23,7 +23,7 @@ window_managers = {'gnome': ['gnome'],
 tmp_image = 'tmp/tempimage'
 
 # abs or relative path where to save resulting wallpaper
-wallpaper_image = '/home/lukas/wp.png'
+wallpaper_image = '/home/nginx/rosti/static/img/wp.png'
 
 # select on which events will resulting wallpaper depend
-events = ['season','daytime']
+events = ['daytime']
