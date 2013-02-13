@@ -23,5 +23,8 @@ def open_image(image_file):
         return image
 
     except Exception, e:
+
         log.error('Error while opening file %s, error was: %r' % (image_file, e))
+        log.exception('Exception on image opener')
+
         return False

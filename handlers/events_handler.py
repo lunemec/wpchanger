@@ -30,6 +30,7 @@ def handle_events():
 
     # import those
     for event in events:
+
         setattr(ImportedEvents, event, import_module('events.%s' % event))
 
     # get their provide, only once can be 'folder'
@@ -51,12 +52,16 @@ def handle_events():
                 folder_count += 1
 
     if folder_count > 1:
+
         log.error('Error while event loading, more than one event provides folder')
+
         raise Exception('Active events can have only one that provides "folder", check settings.')
 
     try:
+
         # service goes_first, first is always 'folder'
         if have_first and goes_first:
+
             curr_directory = get_event_result(goes_first)
 
             # remove so it is not loaded again
@@ -65,12 +70,15 @@ def handle_events():
         to_return = []
         # call other events
         for c_event in events:
+
             to_return.append(get_event_result(c_event, curr_directory, reverse))
 
         return to_return
 
     except AttributeError, e:
+
         log.error('event error: %r' % (e))
+
         raise Exception('There seems to be some event handlers accessing directory that is not available, please check settings.')
 
 

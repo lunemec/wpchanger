@@ -7,6 +7,7 @@ import os
 import signal
 import sys
 
+from lib.common import log
 from lib.environment_detector import environment
 from lib.image_merge import merge_images
 from lib.image_opener import open_image
@@ -22,6 +23,7 @@ parser = argparse.ArgumentParser(description='''A program that computes input in
                                  picks up a image folder according to that information, merges appropriate
                                  images, so that it looks to human eye like his/hers desktop wallpaper changes
                                  fluently as the sun passes (or seasons change).''')
+
 parser.add_argument('-d', '--daemonize', action='store_true', default=False, help='daemonize the process')
 
 
@@ -76,8 +78,8 @@ def infinite_loop():
         log.debug('sleeping ... Zzz')
 
 
-def exit_cleanly():
-    log.debug('catched SIGINT, exiting')
+def exit_cleanly(signal, frame):
+
     sys.exit(0)
 
 
@@ -87,19 +89,16 @@ def main(daemon=False):
     '''
 # TODO fix logging in non-daemon mode
     if daemon:
+
         write_pidfile()
-        setattr(lib.common, 'daemon', True)
 
     else:
-        setattr(lib.common, 'daemon', False)
 
-    from lib.common import log
+        pass
 
     log.debug('--- start ---')
 
-
     infinite_loop()
-
 
 if __name__ == '__main__':
 
@@ -120,4 +119,3 @@ if __name__ == '__main__':
 
     else:
         main(daemon=False)
-

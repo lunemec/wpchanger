@@ -32,4 +32,5 @@ def convert_image(img, alpha=True):
 
     except AttributeError, e:
         log.debug('Not converting from RGBA to RGB, error: %s' % (e))
+        log.exception('Exception on image convertor')
         return False

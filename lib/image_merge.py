@@ -19,4 +19,5 @@ def merge_images(image1, image2, alpha):
 
     except Exception, e:
         log.error('Error while merging images with alpha %s, error was: %r' % (alpha, e))
+        log.exception('Exception on image merger')
         return False

@@ -24,5 +24,8 @@ def save(image_object, image_file, img_format='PNG'):
         return True
 
     except Exception, e:
+
         log.error('Error while saving image file: %s, error was: %r' % (path, e))
+        log.exception('Exception on image saver')
+
         return False

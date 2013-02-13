@@ -4,8 +4,6 @@
 # abs or relative path where to save resulting wallpaper
 wallpaper_image = '/root/Documents/wpchanger/wp.png'
 
-logfile = 'wpchanger.log'
-
 # absolute or relative path to images folder (absolute path is better)
 images_dir = 'images'
 
