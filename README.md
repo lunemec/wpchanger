@@ -14,6 +14,9 @@ some conditions, there are no limits to ones imagination.
 
 INSTALATION
 --------------------------------
+    Note for windows users: install 32bit version of Python, for it is difficult to get 64bit version of PIL(Python imaging library)
+    
+    
     1) install dependencies:
         # pip install -r REQUIREMENTS
 
