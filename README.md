@@ -1,4 +1,6 @@
---- Description ---
+Description
+-------------------------------
+
 This application is multi-platform wallpaper changer. It can change your wallpaper depending on daytime, date, (weather, cpu-temp not implemented yet).
 
 I hope it will have gui in future, for now it works from command line only.
@@ -10,7 +12,8 @@ You can use it to generate fractals or something like that using python imaging 
 some conditions, there are no limits to ones imagination.
 
 
---- INSTALATION ---
+INSTALATION
+--------------------------------
     1) install dependencies:
         # pip install -r REQUIREMENTS
 
@@ -42,7 +45,8 @@ some conditions, there are no limits to ones imagination.
     image_alpha attribute describes if windowmanager can process PNG files, if not set it defaults to False, that means program will save wallpaper as BMP
 
 
---- Image Selection ---
+Image Selection
+-------------------------------------
     Folder containing images should have images that represent time of day passing - by leaves falling, sun setting, nightsky showing etc...
 
     Folder names should be numbers .jpg/png so it will correspond to this:
@@ -56,33 +60,34 @@ some conditions, there are no limits to ones imagination.
 
 
 Example:
+-------------------------------------
 'mywindowmanager.py'
------------------------------------------
-# -*- coding: utf-8 -*-
 
-import os
+    # -*- coding: utf-8 -*-
 
-from common import BaseClass
+    import os
 
-image_alpha = False
+    from common import BaseClass
 
-def set_wallpaper(self, image_file_with_path):
-    filepath = os.path.abspath(image_file_with_path)
-    
-    try:
-        # try to set wallpaper
-        # NOTE: this will work, but there is no way of telling if wallpaper was set or not, and also Exception below would occur only if imgfile would
-        # be something horrible, so almost never
-        call(['feh', '--bg-fill', imgfile])
-        return True
-    
-    except Exception, e:
-        self.log.error('%s Error while setting wallpaper image: %s, error was: %s' % (self.datetime.datetime.now(), image_file_with_path, e))
-        return False
+    image_alpha = False
 
------------------------------------------
+    def set_wallpaper(self, image_file_with_path):
+        filepath = os.path.abspath(image_file_with_path)
+        
+        try:
+            # try to set wallpaper
+            # NOTE: this will work, but there is no way of telling if wallpaper was set or not, and also Exception below would occur only if imgfile would
+            # be something horrible, so almost never
+            call(['feh', '--bg-fill', imgfile])
+            return True
+        
+        except Exception, e:
+            self.log.error('%s Error while setting wallpaper image: %s, error was: %s' % (self.datetime.datetime.now(), image_file_with_path, e))
+            return False
 
---- Events ---
+
+Events
+------------------------------------------
 name events so they would correspond to settings.events
 at each time at least one event provinding 'image' must be active!
 
@@ -98,26 +103,21 @@ event that has provides set to 'image' must return (u'/abs/path/to/image1', u'/a
 you may have active more than one event that provide 'image', the program will merge them separately and then together
 
 Example:
+-----------------------------------------
 'myevent.py'
------------------------------------------
-# -*- coding: utf-8 -*-
 
-import os
+    # -*- coding: utf-8 -*-
 
-from lib.common import BaseClass
-import settings
+    import os
 
-    
-provides = 'folder'
+    from lib.common import BaseClass
+    import settings
+
         
-def event(self, **kwargs):
-    
-    folder = 'kwargs.get('param1')/kwargs.get('param2')'
+    provides = 'folder'
+            
+    def event(self, **kwargs):
+        
+        folder = 'kwargs.get('param1')/kwargs.get('param2')'
 
-    return folder.decode('utf-8')
------------------------------------------
-
-
---- lib.common ---
-this is just convenience module that has log attribute for common logging scheme
-this may contain more common attributes/functions in future 
+        return folder.decode('utf-8')
