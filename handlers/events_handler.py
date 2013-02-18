@@ -2,8 +2,6 @@
 
 from importlib import import_module
 
-from lib.common import log
-
 import settings
 
 
@@ -17,7 +15,7 @@ class ImportedEvents(object):
     pass
 
 
-def handle_events():
+def handle_events(log, img):
     '''
     loads active events from settings, activates them and result is used for image merging
 
@@ -71,7 +69,7 @@ def handle_events():
         # call other events
         for c_event in events:
 
-            to_return.append(get_event_result(c_event, curr_directory, reverse))
+            to_return.append(get_event_result(c_event, curr_directory, reverse, log, img))
 
         return to_return
 
@@ -82,7 +80,7 @@ def handle_events():
         raise Exception('There seems to be some event handlers accessing directory that is not available, please check settings.')
 
 
-def get_event_result(event, curr_directory, reverse):
+def get_event_result(event, curr_directory, reverse, log, img):
     '''
     calls specified event and returns its result
 
@@ -92,6 +90,8 @@ def get_event_result(event, curr_directory, reverse):
 
     kwargs = {'dir': curr_directory,
               'reverse': reverse,
+              'img': img,
+              'log': log,
               }
 
     # call ImportedEvents."event".event(**kwargs) - "event" = settings.events[][index]

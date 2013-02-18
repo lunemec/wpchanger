@@ -2,9 +2,6 @@
 
 import datetime
 
-from lib.common import log
-from lib.image_finder import get_paths
-
 import settings
 
 
@@ -20,7 +17,9 @@ def event(**kwargs):
     @return (string, string, float) or False on error
     '''
 
-    imgs_list = get_paths(kwargs['dir'])
+    img = kwargs['img']
+    log = kwargs['log']
+    imgs_list = img.get_paths(kwargs['dir'])
     time = datetime.datetime.now()
 
     try:
