@@ -126,6 +126,16 @@ event that has provides set to 'image' must return (u'/abs/path/to/image1', u'/a
 
 you may have active more than one event that provide 'image', the program will merge them separately and then together
 
+kwargs is dict with this pre-set data:
+    
+    kwargs = {'dir': ,              path to current directory
+              'reverse': ,          True or False to use reverse
+              'img': ,              lib.image.Img instance initiated from run.py
+              'log': ,              lib.common.Common.log instance attribute initiated from run.py
+              'step': ,             float describing step offset from run.py
+              }
+
+
 Example:
 -----------------------------------------
 'myevent.py'
@@ -140,8 +150,32 @@ Example:
         
     provides = 'folder'
             
-    def event(self, **kwargs):
+    def event(**kwargs):
+        
+        # do some magic
         
         folder = 'kwargs.get('param1')/kwargs.get('param2')'
 
         return folder.decode('utf-8')
+
+
+'myotherevent.py'
+
+    # -*- coding: utf-8 -*-
+
+    import os
+
+    from lib.common import BaseClass
+    import settings
+
+        
+    provides = 'image'
+            
+    def event(**kwargs):
+        
+        # do some magic
+        
+        # returns triple with 2 image paths and alpha to use for merging
+
+        return (image1, image2, alpha)
+

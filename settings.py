@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-# should contain which program to call to change wallpaper in your environment
 
-# abs or relative path where to save resulting wallpaper
+# absolute or relative path to resulting wallpaper image
 wallpaper_image = '/root/Documents/wpchanger/wp.png'
 
 # absolute or relative path to images folder (absolute path is better)
@@ -14,8 +13,9 @@ change_interval = 5
 image_types = ['jpg', 'png', 'bmp']
 
 # override window manager settings with (uncomment to enable)
-window_manager_override = 'kde'
+#window_manager_override = 'kde'
 
+# don't change this unless you know what you're doing
 # dict with window managers we can detect format is following: 'window_manager': ['string1_to_look_for', 'string2_to_look_for']
 window_managers = {'gnome': ['gnome'],
                    'kde': ['kdeinit']}
