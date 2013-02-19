@@ -14,6 +14,7 @@ class Img(object):
     def __init__(self, common):
 
         self.log = common.log
+        self.filetypes = settings.image_types
 
     def get_paths(self, path):
         ''' method for returning sorted list of directory
@@ -22,6 +23,18 @@ class Img(object):
         @ return list'''
 
         return self.sort_images(self.get_images(path))
+
+    def image_control(self, image):
+        '''
+        helper method for use with map()
+        '''
+
+        if image != 'tmp.bmp':
+
+            if image.split('.')[1] in self.filetypes:
+
+                return image
+
 
     def get_images(self, path):
         ''' returns list of unicode strings containing absolute paths to images
@@ -33,18 +46,14 @@ class Img(object):
         returns [u'/path/to/img/img2.jpg', u'/path/to/img/img1.jpg']
         '''
 
-        filetypes = settings.image_types
         path = os.path.abspath(path)
         curr_dir = os.listdir(path)
 
-        imgnames = []
-        for itm in curr_dir:
-            if itm != 'tmp.bmp':
-                for imgtype in filetypes:
-                    if imgtype in itm:
-                        imgnames.append(u'%s/%s' % (path, itm))
+        imgnames = map(self.image_control, curr_dir)
 
-        return imgnames
+        result = ['%s/%s' % (path, i) for i in imgnames if i]
+
+        return result
 
     def sort_images(self, input_list):
         ''' sorts retrieved list of images
@@ -57,7 +66,7 @@ class Img(object):
 
         sort_dict = {}
         output_list = []
-        num = re.compile(r'^.*?(\d+).*?')
+        num = re.compile(r'(\d+)')
 
         for img in input_list:
             sort_dict[int(num.search(img).groups()[0])] = img

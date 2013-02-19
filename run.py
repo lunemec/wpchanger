@@ -27,30 +27,13 @@ parser.add_argument('-d', '--daemonize', action='store_true', default=False, hel
 
 class Main(object):
 
-    def __init__(self, args):
+    def __init__(self, args, env):
         '''
         runs all other functions
         '''
 
-        self.daemon = False
-        self.env = getattr(settings, 'window_manager_override', False) or environment()
-
-        if args.daemonize:
-            # TODO make windows part of this launcher
-            if self.env != 'windows':
-
-                if os.fork() == 0:
-
-                    self.daemon = True
-
-            else:
-
-                print 'Windows part was not implemented yet.'
-                sys.exit(1)
-
-        else:
-
-            self.daemon = False
+        self.daemon = getattr(args, 'daemonize', False)
+        self.env = env
 
         if self.daemon:
 
@@ -129,4 +112,21 @@ if __name__ == '__main__':
     # catch keyboard interrupt and exit gracefully
     signal.signal(signal.SIGINT, exit_cleanly)
 
-    Main(args)
+    env = getattr(settings, 'window_manager_override', False) or environment()
+
+    if args.daemonize:
+        # TODO make windows part of this launcher
+        if env != 'windows':
+
+            if os.fork() == 0:
+
+                Main(args, env)
+
+        else:
+
+            print 'Windows part was not implemented yet.'
+            sys.exit(1)
+
+    else:
+
+        Main(args, env)

@@ -11,7 +11,7 @@ images_dir = 'images'
 change_interval = 5
 
 # valid image types
-image_types = ['.jpg', '.png', '.bmp']
+image_types = ['jpg', 'png', 'bmp']
 
 # override window manager settings with (uncomment to enable)
 window_manager_override = 'kde'
