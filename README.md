@@ -61,6 +61,27 @@ Image Selection
     At the end of the day, images 10 and 00 will be merged and loop starts again the other day
 
 
+Command line options
+-----------------------------------
+I've added some command line options that should help you use this program:
+
+    -h  --help          Displays help
+    -d  --daemonize     runs program in daemon mode, using wpchanger.log as log and wpchanger.pid as file for PID
+    -i  --interval      change interval for new image generation and change (default is 5 minutes)
+    -s  --step          change step in minutes to do each interval - this way you can see the image change faster - entire day in 5 minutes for example.
+
+
+Plugins
+------------------------------------
+Plugins set wallpaper for specific window managers, some wm's don't support alpha (PNG with alpha - RGBA) images. In that case set image_alpha to False and image will get saved as RGB.
+
+function set_wallpaper must take one argument: image file with absolute path '/home/myhome/somewhere/image.bmp' and should set window manager to that wallpaper.
+
+Some window managers do not provide methods for changing wallpapers, so you should option 'window_manager_override' in settings.py and set it to 'kde'.
+This way, program calculates and creates the correct image, and saves it to path 'wallpaper_image' so just point your window manager to that image and it will reload the image (hopefully) by itself.
+
+If you know of method how to change the wallpaper programatically, just create your own plugin, or leave a comment/message and I'll try to create it.
+
 
 Example:
 -------------------------------------
@@ -74,7 +95,7 @@ Example:
 
     image_alpha = False
 
-    def set_wallpaper(self, image_file_with_path):
+    def set_wallpaper(image_file_with_path):
         filepath = os.path.abspath(image_file_with_path)
         
         try:

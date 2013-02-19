@@ -20,9 +20,10 @@ def event(**kwargs):
     img = kwargs['img']
     log = kwargs['log']
     imgs_list = img.get_paths(kwargs['dir'])
-    time = datetime.datetime.now()
+    time = datetime.datetime.now() + datetime.timedelta(minutes=kwargs.get('step', 0))
 
     try:
+
         # get current local time in minutes
         lctime = time.hour * 60 + time.minute
 
@@ -59,5 +60,7 @@ def event(**kwargs):
         return (imgs_list[img1], imgs_list[img2], alpha)
 
     except Exception, e:
+
         log.error('Error while calculating images and alpha, imgs_list: %s, time: %s, error: %r' % (imgs_list, time, e))
+
         return False

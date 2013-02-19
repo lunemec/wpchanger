@@ -2,12 +2,12 @@
 
 import os
 import shutil
-from subprocess import call
 
 import settings
 
 
 image_alpha = True
+
 
 def set_wallpaper(image_file_with_path):
     filepath = os.path.abspath(image_file_with_path)

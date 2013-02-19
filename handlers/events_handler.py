@@ -15,7 +15,7 @@ class ImportedEvents(object):
     pass
 
 
-def handle_events(log, img):
+def handle_events(log, img, step=False):
     '''
     loads active events from settings, activates them and result is used for image merging
 
@@ -69,7 +69,7 @@ def handle_events(log, img):
         # call other events
         for c_event in events:
 
-            to_return.append(get_event_result(c_event, curr_directory, reverse, log, img))
+            to_return.append(get_event_result(c_event, curr_directory, reverse, log, img, step))
 
         return to_return
 
@@ -80,7 +80,7 @@ def handle_events(log, img):
         raise Exception('There seems to be some event handlers accessing directory that is not available, please check settings.')
 
 
-def get_event_result(event, curr_directory, reverse, log, img):
+def get_event_result(event, curr_directory, reverse, log, img, step):
     '''
     calls specified event and returns its result
 
@@ -92,6 +92,7 @@ def get_event_result(event, curr_directory, reverse, log, img):
               'reverse': reverse,
               'img': img,
               'log': log,
+              'step': (step or 0),
               }
 
     # call ImportedEvents."event".event(**kwargs) - "event" = settings.events[][index]

@@ -23,6 +23,8 @@ parser = argparse.ArgumentParser(description='''A program that computes input in
                                  fluently as the sun passes (or seasons change).''')
 
 parser.add_argument('-d', '--daemonize', action='store_true', default=False, help='daemonize the process')
+parser.add_argument('-i', '--interval', action='store', default=False, help='change interval in minutes')
+parser.add_argument('-s', '--step', action='store', default=False, help='step by minutes each interval')
 
 
 class Main(object):
@@ -46,6 +48,10 @@ class Main(object):
 
         self.image = Img(self.common)
         self.plugin = Plugin(self.common, self.image, self.env)
+
+        self.interval = float(getattr(args, 'interval', False) or (settings.change_interval)) * 60
+        self.step = float(getattr(args, 'step', 0))
+        self.step_increasing = self.step
 
         self.infinite_loop()
 
@@ -71,7 +77,7 @@ class Main(object):
             self.log.debug('handling events')
 
             # get results from events
-            to_merge = handle_events(self.log, self.image)
+            to_merge = handle_events(self.log, self.image, step=self.step_increasing)
 
             image_instances = []
             # merge individual event filters
@@ -95,7 +101,10 @@ class Main(object):
             self.plugin.handle_plugins(image_instances[-1])
 
             # tick each settings.change_interval minutes to change wallpaper
-            time.sleep(settings.change_interval * 60)
+            time.sleep(self.interval)
+
+            self.step_increasing += self.step
+            self.log.debug('increasing step to %s' % self.step_increasing)
 
             self.log.debug('sleeping ... Zzz')
 
