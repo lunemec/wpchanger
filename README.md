@@ -1,6 +1,8 @@
 Description
 -------------------------------
 
+This program works on Windows (tested 7, 8), Macos and Linux
+
 This application is multi-platform wallpaper changer. It can change your wallpaper depending on daytime, date, (weather, cpu-temp not implemented yet).
 
 I hope it will have gui in future, for now it works from command line only.
