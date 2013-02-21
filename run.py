@@ -123,9 +123,9 @@ if __name__ == '__main__':
 
     env = getattr(settings, 'window_manager_override', False) or environment()
 
-    if args.daemonize:
-        # TODO make windows part of this launcher
-        if env != 'windows':
+    if env != 'windows':
+
+        if args.daemonize:
 
             if os.fork() == 0:
 
@@ -133,8 +133,7 @@ if __name__ == '__main__':
 
         else:
 
-            print 'Windows part was not implemented yet.'
-            sys.exit(1)
+            Main(args, env)
 
     else:
 
