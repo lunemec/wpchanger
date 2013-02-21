@@ -1,0 +1,69 @@
+<background>
+  <starttime>
+    <year>2008</year>
+    <month>05</month>
+    <day>24</day>
+    <hour>0</hour>
+    <minute>00</minute>
+    <second>01</second>
+  </starttime>
+
+<static>
+<duration>18000.0</duration>
+<file>/usr/share/backgrounds/crunchybranch/crunchybranch_08.png</file>
+</static>
+<!-- il est 5h -->
+<transition type="overlay">
+	<duration>7200.0</duration>
+	<from>/usr/share/backgrounds/crunchybranch/crunchybranch_08.png</from>
+	<to>/usr/share/backgrounds/crunchybranch/crunchybranch_01.png</to>
+</transition>
+<!-- il est 7h -->
+<transition type="overlay">
+	<duration>7200.0</duration>
+	<from>/usr/share/backgrounds/crunchybranch/crunchybranch_01.png</from>
+	<to>/usr/share/backgrounds/crunchybranch/crunchybranch_02.png</to>
+</transition>
+<!-- il est 9h -->
+<transition type="overlay">
+	<duration>7200.0</duration>
+	<from>/usr/share/backgrounds/crunchybranch/crunchybranch_02.png</from>
+	<to>/usr/share/backgrounds/crunchybranch/crunchybranch_03.png</to>
+</transition>
+<!-- il est 11h -->
+<transition type="overlay">
+	<duration>7200.0</duration>
+	<from>/usr/share/backgrounds/crunchybranch/crunchybranch_03.png</from>
+	<to>/usr/share/backgrounds/crunchybranch/crunchybranch_04.png</to>
+</transition>
+<!-- il est 13h -->
+<transition type="overlay">
+	<duration>7200.0</duration>
+	<from>/usr/share/backgrounds/crunchybranch/crunchybranch_04.png</from>
+	<to>/usr/share/backgrounds/crunchybranch/crunchybranch_05.png</to>
+</transition>
+<!-- il est 15h -->
+<transition type="overlay">
+	<duration>7200.0</duration>
+	<from>/usr/share/backgrounds/crunchybranch/crunchybranch_05.png</from>
+	<to>/usr/share/backgrounds/crunchybranch/crunchybranch_06.png</to>
+</transition>
+<!-- il est 17h -->
+<transition type="overlay">
+	<duration>7200.0</duration>
+	<from>/usr/share/backgrounds/crunchybranch/crunchybranch_06.png</from>
+	<to>/usr/share/backgrounds/crunchybranch/crunchybranch_07.png</to>
+</transition>
+<!-- il est 19h -->
+<transition type="overlay">
+	<duration>7200.0</duration>
+	<from>/usr/share/backgrounds/crunchybranch/crunchybranch_07.png</from>
+	<to>/usr/share/backgrounds/crunchybranch/crunchybranch_08.png</to>
+</transition>
+<!-- il est 21h -->
+<static>
+<duration>10800.0</duration>
+<file>/usr/share/backgrounds/crunchybranch/crunchybranch_08.png</file>
+</static>
+<!-- il est 0h -->
+</background>

@@ -4,7 +4,7 @@
 wallpaper_image = '/root/Documents/wpchanger/wp.png'
 
 # absolute or relative path to images folder (absolute path is better)
-images_dir = 'images'
+images_dir = 'images/crunchybranch'
 
 # interval for image refresh in minutes
 change_interval = 5
