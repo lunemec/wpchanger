@@ -1,5 +1,5 @@
 # All platforms
-pil #Python imaging library http://www.pythonware.com/products/pil/
+PIL #Python imaging library http://www.pythonware.com/products/pil/
 
 # macos
 argparse

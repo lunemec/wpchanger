@@ -18,7 +18,8 @@ image_types = ['jpg', 'png', 'bmp']
 # don't change this unless you know what you're doing
 # dict with window managers we can detect format is following: 'window_manager': ['string1_to_look_for', 'string2_to_look_for']
 window_managers = {'gnome': ['gnome'],
-                   'kde': ['kdeinit']}
+                   'kde': ['kdeinit'],
+                   'xorg': ['i3']}
 
 # name of temporary image to save (without .bmp/.png)
 tmp_image = 'tmp/tempimage'
