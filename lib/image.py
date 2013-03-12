@@ -35,7 +35,6 @@ class Img(object):
 
                 return image
 
-
     def get_images(self, path):
         ''' returns list of unicode strings containing absolute paths to images
 
@@ -88,7 +87,7 @@ class Img(object):
             output_img = Image.blend(image1, image2, alpha)
             return output_img
 
-        except Exception, e:
+        except Exception as e:
 
             self.log.error('Error while merging images with alpha %s, error was: %r' % (alpha, e))
             self.log.exception('Exception on image merger')
@@ -112,7 +111,7 @@ class Img(object):
             image = Image.open(path)
             return image
 
-        except Exception, e:
+        except Exception as e:
 
             self.log.error('Error while opening file %s, error was: %r' % (image_file, e))
             self.log.exception('Exception on image opener')
@@ -138,7 +137,7 @@ class Img(object):
 
             return True
 
-        except Exception, e:
+        except Exception as e:
 
             self.log.error('Error while saving image file: %s, error was: %r' % (path, e))
             self.log.exception('Exception on image saver')
@@ -170,7 +169,7 @@ class Img(object):
 
                 return img
 
-        except AttributeError, e:
+        except AttributeError as e:
 
             self.log.debug('Not converting from RGBA to RGB, error: %s' % (e))
             self.log.exception('Exception on image convertor')
