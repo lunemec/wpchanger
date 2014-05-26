@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
 # absolute or relative path to resulting wallpaper image
-wallpaper_image = '/root/Documents/wpchanger/wp.png'
+wallpaper_image = '/tmp/wp.png'
 
 # absolute or relative path to images folder (absolute path is better)
 images_dir = 'images/crunchybranch'
 
 # interval for image refresh in minutes
-change_interval = 5
+change_interval = 0.5
 
 # valid image types
 image_types = ['jpg', 'png', 'bmp']
@@ -22,7 +22,7 @@ window_managers = {'gnome': ['gnome'],
                    'xorg': ['i3']}
 
 # name of temporary image to save (without .bmp/.png)
-tmp_image = 'tmp/tempimage'
+tmp_image = '/tmp/tempimage'
 
 # select on which events will resulting wallpaper depend
 events = ['daytime']

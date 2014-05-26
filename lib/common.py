@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import inspect
 
 
 class Common(object):
@@ -14,11 +13,9 @@ class Common(object):
         formatter = logging.Formatter('[%(levelname)s] %(asctime)s %(module)s.py %(funcName)s():%(lineno)d %(message)s')
 
         if daemon:
-
             handler = logging.FileHandler(logfile)
 
         else:
-
             handler = logging.StreamHandler()
 
         handler.setFormatter(formatter)

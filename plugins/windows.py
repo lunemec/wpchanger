@@ -4,6 +4,8 @@ import os
 
 if os.name == 'nt':
     from ctypes import windll
+else:
+    raise Exception('Unsupported OS.')
 
 
 image_alpha = False
@@ -17,9 +19,7 @@ def set_wallpaper(image_file_with_path):
     setit = windll.user32.SystemParametersInfoA(SPI_SETDESKWALLPAPER, 0, filepath, 0)
 
     if setit:
-
         return True
 
     else:
-
         return False

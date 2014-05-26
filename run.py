@@ -38,7 +38,6 @@ class Main(object):
         self.env = env
 
         if self.daemon:
-
             self.write_pidfile()
 
         self.common = Common(daemon=self.daemon)
@@ -64,7 +63,6 @@ class Main(object):
         pidfile = settings.pidfile
 
         with open(pidfile, 'w') as f:
-
             f.write(pid)
 
     def infinite_loop(self):
@@ -124,17 +122,15 @@ if __name__ == '__main__':
     env = getattr(settings, 'window_manager_override', False) or environment()
 
     if env != 'windows':
-
         if args.daemonize:
-
             if os.fork() == 0:
-
+                Main(args, env)
+            else:
+                print 'Your system does not support fork(), running in foreground.'
                 Main(args, env)
 
         else:
-
             Main(args, env)
 
     else:
-
         Main(args, env)

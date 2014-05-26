@@ -42,7 +42,7 @@ class Plugin(object):
         converted_image = self.image.convert_image(image, alpha=alpha_capable)
 
         save_to = self.save_image(converted_image, alpha_capable)
-
+        print save_to
         # set image as wallpaper using plugin
         setimage = active_plugin.set_wallpaper(save_to)
 

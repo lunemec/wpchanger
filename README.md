@@ -73,6 +73,14 @@ I've added some command line options that should help you use this program:
     -s  --step          change step in minutes to do each interval - this way you can see the image change faster - entire day in 5 minutes for example.
 
 
+Testing
+------------------------------------
+You can test if wpchanger works with your setting and OS.
+Simply run `python run.py -i 0.01 -s 30`
+It will simulate time passing by 30min each 0.01min. This way you can see the effect on your desktop.
+Note: it will seem somewhat laggy - this is due to fast generation of large timespans, when working normally this effect can't be seen by human eye.
+
+
 Plugins
 ------------------------------------
 Plugins set wallpaper for specific window managers, some wm's don't support alpha (PNG with alpha - RGBA) images. In that case set image_alpha to False and image will get saved as RGB.
