@@ -26,8 +26,6 @@ class Plugin(object):
         save_to = os.path.abspath('%s.%s' % (settings.tmp_image, image_format.lower()))
         self.image.save(converted_image, save_to, image_format)
 
-        return save_to
-
     def handle_plugins(self, image):
         ''' method that chooses plugin to use depending on environment, saves image and sets it as wallpaper
         @param image: Image.Image instance '''

@@ -125,12 +125,7 @@ if __name__ == '__main__':
         if args.daemonize:
             if os.fork() == 0:
                 Main(args, env)
-            else:
-                print 'Your system does not support fork(), running in foreground.'
-                Main(args, env)
-
         else:
             Main(args, env)
-
     else:
         Main(args, env)

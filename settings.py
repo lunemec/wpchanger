@@ -7,7 +7,7 @@ wallpaper_image = '/tmp/wp.png'
 images_dir = 'images/crunchybranch'
 
 # interval for image refresh in minutes
-change_interval = 0.5
+change_interval = 5
 
 # valid image types
 image_types = ['jpg', 'png', 'bmp']
